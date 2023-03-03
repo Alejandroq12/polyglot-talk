@@ -256,6 +256,6 @@ Original design idea by Cindy Shin in Behance: [CC Global Summit 2015](https://w
 
 ## 📝 License <a name="license"></a>
 
-This project is [MIT](./MIT.md) licensed.
+This project is [MIT](./LICENSE) licensed.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
