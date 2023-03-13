@@ -1,11 +1,11 @@
-<a name="readme-top">Global Education Summit 2023</a>
+<a name="readme-top">Polyglot Talk: Connecting Cultures through Language Learning</a>
 
 
 <div align="center">
   <img src="./assets/images/logo/logo4.png" alt="logo" width="300"  height="auto" />
   <br/>
 
-  <h3><b>Global Education Summit 2023</b></h3>
+  <h3><b>Polyglot Talk: Connecting Cultures through Language Learning</b></h3>
 
 </div>
 
@@ -36,15 +36,13 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 Global Education Summit 2023 <a name="about-project"></a>
+# 📖 Polyglot Talk: Connecting Cultures through Language Learning <a name="about-project"></a>
 
-Global Education Summit 2023 is a website dedicated to promoting global education initiatives and highlighting the latest trends, news, and resources related to education around the world. Our mission is to create a community of educators, policymakers, and learners who are passionate about improving education systems and providing access to quality education for all.
+As a polyglot who speaks French, Spanish, English, and Chinese, I am excited to share my experiences and insights on the importance of language learning in today's global society. In my talk, I will explore how learning multiple languages can broaden our perspectives, foster empathy and understanding, and open up new opportunities for personal and professional growth.
 
-On our website, you will find informative articles, insightful analysis, and inspiring stories about education from diverse perspectives. We cover a wide range of topics, including STEM education, digital literacy, global citizenship, and more. We also provide resources and tools for educators and students, such as lesson plans, study guides, and online courses.
+Drawing on my own experiences as a language learner, I will share practical tips and strategies for effective language learning, including how to choose the right materials, practice speaking with confidence, and immerse yourself in the target language and culture. I will also discuss the latest trends and technologies in language education and how they are shaping the future of language learning.
 
-As we approach the year 2023, we are gearing up for the Global Education Summit, a major international conference that will bring together leaders and stakeholders in education from around the world. Our website will serve as a hub for information about the summit, including registration details, speaker bios, and event schedules.
-
-Join us on Global Education Summit 2023 and become a part of the global movement for education. Together, we can create a brighter future for all learners.****
+Whether you are a language learner, teacher, or simply interested in the power of language to connect people and cultures, this talk is for you. Join me and become part of the global movement for multilingualism and cross-cultural understanding.
 
 ## 🛠 Built With <a name="built-with"></a>
 
