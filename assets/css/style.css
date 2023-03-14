@@ -141,7 +141,7 @@ body {
   -webkit-text-fill-color: transparent;
   color: transparent;
   -webkit-background-clip: text;
-  background-clip: text;
+  background-clip: text-fill-box;
   margin: 0 0.8rem;
   margin-bottom: 1rem;
 }
