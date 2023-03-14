@@ -412,3 +412,15 @@ body {
   margin: 0.3rem;
   border: none;
 }
+
+.section-three__container .section-three__card {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 0.1rem;
+  margin: 0.6rem;
+  border: none;
+  border-radius: 0.5rem;
+  background-color: var(--dark-gray);
+}
