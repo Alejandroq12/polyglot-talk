@@ -29,6 +29,7 @@ const topics = [
     topicTitle: 'Business English',
     talkTime: 'Talk Time: 1h 30m',
     topicDescription: 'Learn French and take your life to the next level',
+    number: 'num-0',
   },
   {
     topicImage: './assets/img/featured-topics/2.png',
@@ -36,6 +37,7 @@ const topics = [
     topicTitle: 'French',
     talkTime: 'Talk Time: 2h 30m',
     topicDescription: 'Learn French and take your life to the next level',
+    number: 'num-1',
   },
   {
     topicImage: './assets/img/featured-topics/3.png',
@@ -43,6 +45,7 @@ const topics = [
     topicTitle: 'Chinese',
     talkTime: 'Talk Time: 3h 30m',
     topicDescription: 'Learn Chinese and take your life to the next level',
+    number: 'num-2',
   },
   {
     topicImage: './assets/img/featured-topics/4.png',
@@ -50,6 +53,7 @@ const topics = [
     topicTitle: 'English',
     talkTime: 'Talk Time: 2h 30m',
     topicDescription: 'Learn English and take your life to the next level',
+    number: 'num-3',
   },
   {
     topicImage: './assets/img/featured-topics/5.png',
@@ -57,6 +61,7 @@ const topics = [
     topicTitle: 'Spanish',
     talkTime: 'Talk Time: 1h 30m',
     topicDescription: 'Learn Spanish and take your life to the next level',
+    number: 'num-4',
   },
   {
     topicImage: './assets/img/featured-topics/7.png',
@@ -64,6 +69,7 @@ const topics = [
     topicTitle: 'Languages and technology',
     talkTime: 'Talk Time: 1h 30m',
     topicDescription: 'Learn labguages and technology and take your life to the next level',
+    number: 'num-5',
   },
 ];
 
@@ -72,6 +78,7 @@ const topicsContainer = document.querySelector('.section-three__container');
 topics.forEach((topic) => {
   const card = document.createElement('div');
   card.classList.add('section-three__card');
+  card.classList.add(topic.number);
   card.setAttribute('tabindex', '0');
   card.setAttribute('aria-label', topic.topicTitle);
 
@@ -87,4 +94,24 @@ topics.forEach((topic) => {
     </div>
 `;
   topicsContainer.appendChild(card);
+});
+
+// Show more and less button
+const showMore = document.querySelector('.div-button__more');
+
+showMore.addEventListener('click', () => {
+  let isActive = false;
+
+  topics.slice(1).forEach((_, index) => {
+    const card = document.querySelector(`.num-${index + 1}`);
+
+    if (card.classList.contains('active')) {
+      isActive = true;
+    }
+
+    card.classList.toggle('active');
+  });
+
+  showMore.classList.toggle('btn-active');
+  showMore.textContent = isActive ? 'MORE' : 'LESS';
 });

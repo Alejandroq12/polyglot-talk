@@ -179,6 +179,7 @@ body {
   font-family: inherit;
   color: var(--white);
   font-size: 1.6rem;
+  font-weight: 800;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -387,8 +388,8 @@ body {
 
 .div-a__list {
   font-family: inherit;
-  font-size: 0.7rem;
-  font-weight: 500;
+  font-size: 0.9rem;
+  font-weight: 800;
   color: var(--white);
   text-decoration: none;
   display: flex;
@@ -396,10 +397,10 @@ body {
   justify-content: center;
   align-items: center;
   margin: 0.5rem auto;
-  width: 10rem;
+  width: 10.5rem;
   height: 3rem;
   border-radius: 0.5rem;
-  background-color: var(--orange);
+  background: linear-gradient(9deg, var(--black) 8%, var(--orange) 50%, var(--black) 100%);
 }
 
 /* Section Three */
@@ -461,4 +462,67 @@ body {
   border-top: 1px solid var(--white);
   margin: 0.3rem;
   width: 2rem;
+}
+
+.section-three__h2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: inherit;
+  font-size: 1.5rem;
+  font-weight: 800;
+  color: var(--black);
+  margin: 0.3rem;
+}
+
+.section-three__card.num-2,
+.section-three__card.num-3,
+.section-three__card.num-4,
+.section-three__card.num-5,
+.section-three__card.num-6 {
+  display: none;
+}
+
+
+.section-three__card.num-2.active,
+.section-three__card.num-3.active,
+.section-three__card.num-4.active,
+.section-three__card.num-5.active,
+.section-three__card.num-6.active {
+  display: flex;
+}
+
+.div-button__more {
+  color: var(--white);
+  background: linear-gradient(9deg, var(--black) 8%, var(--orange) 50%, var(--black) 100%);
+  border: 0.1rem solid var(--black);
+  width: 100%;
+  padding: 1rem;
+  margin-top: 1rem;
+  font-size: 1rem;
+  font-weight: 800;
+  position: relative;
+}
+
+.div-button__more::after {
+  content: "⮟";
+  font-size: 1.2rem;
+  position: absolute; 
+  bottom: -1.5rem;
+  left: 62%;
+  top: 28%;
+  transform: translateX(-50%);
+  color: var(--black);
+}
+
+.btn-active::after {
+  content: "⮝";
+  font-size: 1.2rem;
+  position: absolute;
+  bottom: -1.5rem;
+  left: 62%;
+  top: 28%;
+  transform: translateX(-50%);
+  color: var(--black);
 }
