@@ -178,9 +178,11 @@ body {
 .section-two__h2 {
   font-family: inherit;
   color: var(--white);
+  font-size: 1.6rem;
   display: flex;
   justify-content: center;
   align-items: center;
+  padding-top: 2rem;
 }
 
 .section-two__hr {
@@ -211,7 +213,7 @@ body {
   align-items: center;
   padding: 1rem;
   margin: 0.3rem;
-  border: 1px solid var(--gray);
+  border: none;
   border-radius: 0.5rem;
   background-color: var(--dark-gray);
 }
@@ -246,7 +248,7 @@ body {
   align-items: center;
   padding: 1rem;
   margin: 0.3rem;
-  border: 1px solid var(--gray);
+  border: none;
   border-radius: 0.5rem;
   background-color: var(--dark-gray);
 }
@@ -281,7 +283,7 @@ body {
   align-items: center;
   padding: 1rem;
   margin: 0.3rem;
-  border: 1px solid var(--gray);
+  border: none;
   border-radius: 0.5rem;
   background-color: var(--dark-gray);
 }
@@ -316,7 +318,7 @@ body {
   align-items: center;
   padding: 1rem;
   margin: 0.3rem;
-  border: 1px solid var(--gray);
+  border: none;
   border-radius: 0.5rem;
   background-color: var(--dark-gray);
 }
@@ -351,7 +353,7 @@ body {
   align-items: center;
   padding: 1rem;
   margin: 0.3rem;
-  border: 1px solid var(--gray);
+  border: none;
   border-radius: 0.5rem;
   background-color: var(--dark-gray);
 }
@@ -377,4 +379,25 @@ body {
   font-weight: 500;
   color: var(--white);
   margin: 0.5rem 0 0.5rem 0.6rem;
+}
+
+.section-two__link {
+  padding-bottom: 1.4rem;
+}
+
+.div-a__list {
+  font-family: inherit;
+  font-size: 0.7rem;
+  font-weight: 500;
+  color: var(--white);
+  text-decoration: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin: 0.5rem auto;
+  width: 10rem;
+  height: 3rem;
+  border-radius: 0.5rem;
+  background-color: var(--orange);
 }
