@@ -631,3 +631,16 @@ body {
   align-items: center;
   width: 100%;
 }
+
+.about-section__three .about-section-three__h2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-family: inherit;
+  font-size: 1.5rem;
+  font-weight: 800;
+  color: var(--black);
+  margin: 0.7rem 0.8rem;
+}
