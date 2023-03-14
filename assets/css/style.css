@@ -31,23 +31,6 @@ body {
   justify-content: space-between;
 }
 
-#nav-bar .nav-img__logo {
-  display: none;
-}
-
-#nav-bar ul a {
-  padding: 1rem;
-  display: flex;
-  align-items: end;
-  text-decoration: none;
-  color: var(--black);
-}
-
-#nav-bar ul a:hover {
-  color: var(--orange);
-  transition: color 0.3s ease, color 0.3s ease;
-}
-
 #nav-bar div button {
   background-color: transparent;
   color: var(--black);
@@ -99,6 +82,23 @@ body {
 
 #nav-bar li {
   list-style: none;
+}
+
+#nav-bar .nav-img__logo {
+  display: none;
+}
+
+#nav-bar ul a {
+  padding: 1rem;
+  display: flex;
+  align-items: end;
+  text-decoration: none;
+  color: var(--black);
+}
+
+#nav-bar ul a:hover {
+  color: var(--orange);
+  transition: color 0.3s ease, color 0.3s ease;
 }
 
 .mobile-menu .close-button {
