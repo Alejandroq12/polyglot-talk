@@ -45,11 +45,7 @@ body {
 
 #nav-bar ul a:hover {
   color: var(--orange);
-  transition: color .3s ease, color .3s ease;
-}
-
-#nav-bar li {
-  list-style: none;
+  transition: color 0.3s ease, color 0.3s ease;
 }
 
 #nav-bar div button {
@@ -73,6 +69,7 @@ body {
   display: none; /* Hide mobile menu by default */
   background-color: #000;
 }
+
 .mobile-menu.show {
   display: block;
 }
@@ -98,6 +95,10 @@ body {
 
 .mobile-menu ul li a:hover {
   color: var(--orange);
+}
+
+#nav-bar li {
+  list-style: none;
 }
 
 .mobile-menu .close-button {
