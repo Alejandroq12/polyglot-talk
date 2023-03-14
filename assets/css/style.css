@@ -239,3 +239,37 @@ body {
   margin: 0.5rem 0 0.5rem 0.6rem;
 }
 
+.container-card__two {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+  margin: 0.3rem;
+  border: 1px solid var(--gray);
+  border-radius: 0.5rem;
+  background-color: var(--dark-gray);
+}
+
+.container-card__two .card-two__img1 {
+  width: 2.8rem;
+  height: 2.7rem;
+  margin: 0.4rem;
+  margin-left: -0.1rem;
+}
+
+.container-card__two .card-two__h3 {
+  font-family: inherit;
+  font-size: 1.1rem;
+  font-weight: 800;
+  color: var(--orange);
+  margin: 0.3rem;
+}
+
+.container-card__two .card-two__p1 {
+  font-family: inherit;
+  font-size: 0.9rem;
+  font-weight: 500;
+  color: var(--white);
+  margin: 0.5rem 0 0.5rem 0.6rem;
+}
