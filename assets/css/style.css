@@ -541,3 +541,37 @@ body {
   font-size: 0.7rem;
   font-weight: 600;
 }
+/* about us */
+
+.about-h1 {
+  font-family: inherit;
+  color: var(--orange);
+  font-size: 1.2rem;
+  font-weight: 700;
+  margin: 0 0.8rem;
+  margin-top: 1rem;
+}
+
+.about-h2 {
+  font-family: Lexend Deca, sans-serif;
+  font-size: 2.1rem;
+  font-weight: 900;
+  background-image: url(../img/images/back-img.jpg);
+  background-repeat: repeat;
+  background-size: contain;
+  -webkit-background-clip: text;
+
+  /* background-clip: text; */
+  color: transparent;
+  margin: 0 0.8rem;
+  margin-bottom: 1rem;
+}
+
+.section-one__p {
+  font-family: inherit;
+  font-size: 1.1rem;
+  font-weight: 500;
+  margin: 0.7rem 0.8rem;
+  border: 2px solid var(--gray);
+  padding: 1rem;
+}
