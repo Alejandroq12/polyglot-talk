@@ -401,3 +401,14 @@ body {
   border-radius: 0.5rem;
   background-color: var(--orange);
 }
+
+/* Section Three */
+.section-three__container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+  margin: 0.3rem;
+  border: none;
+}
