@@ -14,6 +14,7 @@
   --orange: #ec5242;
   --white: white;
   --gray: #d3d3d3;
+  --dark-gray: #595959;
 }
 
 body {
@@ -34,7 +35,7 @@ body {
 
 #nav-bar div button {
   background-color: transparent;
-  color: var(--black);
+  color: var(--dark-gray);
   font-size: 3rem;
   font-weight: 900;
   padding: 0.2rem 1.4rem;
@@ -144,4 +145,28 @@ body {
   color: transparent;
   margin: 0 0.8rem;
   margin-bottom: 1rem;
+}
+
+.section-one__p {
+  font-family: inherit;
+  font-size: 1.1rem;
+  font-weight: 500;
+  margin: 0.7rem 0.8rem;
+  border: 2px solid var(--gray);
+  padding: 1rem;
+}
+
+.section-one__p2 {
+  display: block;
+  font-family: inherit;
+  color: var(--dark-gray);
+  margin: 0.7rem 0.8rem;
+  font-size: 1.7rem;
+  font-weight: 900;
+}
+
+.section-one__p2 span {
+  display: block;
+  font-size: 0.9rem;
+  margin: 0.3rem 0 0.5rem 0;
 }
