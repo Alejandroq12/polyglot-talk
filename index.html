@@ -15,23 +15,23 @@
 <body>
   <header id="header">
     <ul class="header-ul">
-      <li><a class="header-ul__li" href="www.facebook.com"><img src="./assets/img/icons/facebook.png"
-            alt="Go to Facebook page"></a></li>
-      <li><a class="header-ul__li" href="www.twitter.com"><img src="./assets/img/icons/twitter.png"
-            alt="Go to Twitter page"></a></li>
+      <li><a class="header-ul__li" href="www.facebook.com" aria-label="Go to Facebook page"><img src="./assets/img/icons/facebook.png"
+            alt="Facebook logo"></a></li>
+      <li><a class="header-ul__li" href="www.twitter.com" aria-label="Go to Twitter page"><img src="./assets/img/icons/twitter.png"
+            alt="Twitter logo"></a></li>
       <li><a class="header-ul__li" href="#">English</a></li>
       <li><a class="header-ul__li" href="#">My Page</a></li>
       <li><a class="header-ul__li" href="#">Logout</a></li>
     </ul>
   </header>
-  <nav id="nav-bar">
+  <nav id="nav-bar" aria-label="Navigation">
     <div class="div-hamburguer__active">
-      <button id="hamburger-btn">☰</button>
+      <button id="hamburger-btn" type="button" aria-label="Toggle menu">☰</button>
       <a href="#index.html">
         <img class="nav-img__logo" src="./assets/img/logo/logo5.png" alt="Polyglot talk by Julio Quezada" />
       </a>
     </div>
-    <ul class="nav-ul__options">
+    <ul class="nav-ul__options" aria-label="Navigation options">
       <li><a class="ul-li__links" href="./index.html">Home</a></li>
       <li><a class="ul-li__links" href="./about.html">About</a></li>
     </ul>
@@ -82,7 +82,7 @@
         </div>
       </div>
       <div class="section-two__link">
-        <a class="div-a__list" href="#">See the full list of topics</a>
+        <a class="div-a__list" href="#" aria-label="See the full list of topics">See the full list of topics</a>
       </div>
     </section>
     <section class="section-three">
@@ -91,7 +91,7 @@
       <div class="section-three__container">
       </div>
       <div class="section-three__button">
-        <button class="div-button__more" type="button">More</button>
+        <button class="div-button__more" type="button" aria-label="See more">More</button>
       </div>
     </section>
     <section class="section-four">
