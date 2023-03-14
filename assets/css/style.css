@@ -615,11 +615,19 @@ body {
 }
 
 .about-section__two .about-section-two__p1 {
+  text-align: center;
   font-family: inherit;
   font-size: 1.1rem;
   font-weight: 500;
   margin: 0.7rem 0.8rem;
-  border: 2px solid var(--gray);
-  padding: 1rem;
-  background-color: var(--gray);
+  border: none;
+  padding: 1.8rem;
+}
+
+.about-section__two .about-section-two__container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
 }
