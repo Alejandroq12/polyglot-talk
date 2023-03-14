@@ -139,9 +139,7 @@ body {
   background-repeat: repeat;
   background-size: contain;
   -webkit-background-clip: text;
-  -moz-background-clip: text;
-  -ms-background-clip: text;
-  -o-background-clip: text;
+  /* background-clip: content-box; */
   color: transparent;
   margin: 0 0.8rem;
   margin-bottom: 1rem;
