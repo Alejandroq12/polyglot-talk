@@ -176,9 +176,22 @@ body {
 }
 
 .section-two__h2 {
-  font-family: inherit, sans-serif;
+  font-family: inherit;
   color: var(--white);
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.section-two__hr {
+  border: none;
+  border-top: 1px solid var(--orange);
+  margin: 0.5rem auto;
+  width: 2rem;
+}
+
+.divider {
+  border-top: 1px solid var(--orange);
+  margin: 0.5rem auto;
+  width: 2rem;
 }
