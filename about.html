@@ -15,10 +15,10 @@
 <body>
   <header id="header">
     <ul class="header-ul">
-      <li><a class="header-ul__li" href="www.facebook.com" aria-label="Go to Facebook page"><img src="./assets/img/icons/facebook.png"
-            alt="Facebook logo"></a></li>
-      <li><a class="header-ul__li" href="www.twitter.com" aria-label="Go to Twitter page"><img src="./assets/img/icons/twitter.png"
-            alt="Twitter logo"></a></li>
+      <li><a class="header-ul__li" href="www.facebook.com" aria-label="Go to Facebook page"><img
+            src="./assets/img/icons/facebook.png" alt="Facebook logo"></a></li>
+      <li><a class="header-ul__li" href="www.twitter.com" aria-label="Go to Twitter page"><img
+            src="./assets/img/icons/twitter.png" alt="Twitter logo"></a></li>
       <li><a class="header-ul__li" href="#">English</a></li>
       <li><a class="header-ul__li" href="#">My Page</a></li>
       <li><a class="header-ul__li" href="#">Logout</a></li>
@@ -31,10 +31,13 @@
         <img class="nav-img__logo" src="./assets/img/logo/logo5.png" alt="Polyglot talk by Julio Quezada" />
       </a>
     </div>
-    <ul class="nav-ul__options" aria-label="Navigation options">
-      <li><a class="ul-li__links" href="./index.html">Home</a></li>
-      <li><a class="ul-li__links" href="./about.html">About</a></li>
-    </ul>
+    <div class="mobile-menu" aria-label="Mobile menu">
+      <ul class="nav-ul__options" aria-label="Navigation options">
+        <li><a class="ul-li__links" href="./index.html">Home</a></li>
+        <li><a class="ul-li__links" href="./about.html">About</a></li>
+      </ul>
+      <span class="close-button" aria-label="Close menu">✕</span>
+    </div>
   </nav>
   <main>
     <section class="about-section__one">
@@ -112,6 +115,7 @@
     </div>
     </div>
   </footer>
+  <script src="./js/index.js"></script>
 </body>
 
 </html>
