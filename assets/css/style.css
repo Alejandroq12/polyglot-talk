@@ -138,10 +138,11 @@ body {
   background-image: url(../img/images/back-img.jpg);
   background-repeat: repeat;
   background-size: contain;
-  -webkit-text-fill-color: transparent;
-  color: transparent;
   -webkit-background-clip: text;
-  background-clip: text-fill-box;
+  -moz-background-clip: text;
+  -ms-background-clip: text;
+  -o-background-clip: text;
+  color: transparent;
   margin: 0 0.8rem;
   margin-bottom: 1rem;
 }
