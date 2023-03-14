@@ -140,7 +140,7 @@ body {
   background-size: contain;
   -webkit-background-clip: text;
 
-  /* background-clip: content-box; */
+  /* background-clip: text; */
   color: transparent;
   margin: 0 0.8rem;
   margin-bottom: 1rem;
