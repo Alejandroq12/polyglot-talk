@@ -424,3 +424,34 @@ body {
   border-radius: 0.5rem;
   background-color: var(--dark-gray);
 }
+
+.card-img__container .section-three__card__img {
+  width: 5.2rem;
+  height: 5.2rem;
+  margin: 0.4rem;
+  margin-left: 0.3rem;
+}
+
+.section-three__card .section-three__card__title {
+  font-family: inherit;
+  font-size: 1rem;
+  font-weight: 700;
+  color: var(--white);
+  margin: 0.3rem;
+}
+
+.section-three__card .section-three__card__time {
+  font-family: inherit;
+  font-size: 0.7rem;
+  font-weight: 500;
+  color: var(--orange);
+  margin: 0.3rem;
+}
+
+.section-three__card .section-three__card__description {
+  font-family: inherit;
+  font-size: 0.7rem;
+  font-weight: 500;
+  color: var(--white);
+  margin: 0.3rem;
+}

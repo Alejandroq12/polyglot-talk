@@ -76,8 +76,8 @@ topics.forEach((topic) => {
   card.setAttribute('aria-label', topic.topicTitle);
 
   card.innerHTML = `
-    <div class="section-three__card__image">
-        <img src="${topic.topicImage}" alt="${topic.alt}">
+    <div class="card-img__container">
+        <img class="section-three__card__img" src="${topic.topicImage}" alt="${topic.alt}">
     </div>
         <h3 class="section-three__card__title">${topic.topicTitle}</h3>
         <p class="section-three__card__time">${topic.talkTime}</p>
