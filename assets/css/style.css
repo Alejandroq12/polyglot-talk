@@ -51,7 +51,8 @@ body {
   left: 0;
   width: 100%;
   height: 100%;
-  display: none; /* Hide mobile menu by default */
+  display: none;
+  /* Hide mobile menu by default */
   background-color: var(--black);
 }
 
@@ -119,7 +120,7 @@ body {
   font-size: 2.5rem;
 }
 
-#nav-bar #hamburger-btn.active + .mobile-menu {
+#nav-bar #hamburger-btn.active+.mobile-menu {
   display: block;
 }
 
@@ -484,7 +485,6 @@ body {
   display: none;
 }
 
-
 .section-three__card.num-2.active,
 .section-three__card.num-3.active,
 .section-three__card.num-4.active,
@@ -508,7 +508,7 @@ body {
 .div-button__more::after {
   content: "⮟";
   font-size: 1.2rem;
-  position: absolute; 
+  position: absolute;
   bottom: -1.5rem;
   left: 62%;
   top: 28%;
