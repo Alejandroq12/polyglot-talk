@@ -11,3 +11,10 @@ closeBtn.addEventListener('click', () => {
   hamburgerBtn.classList.remove('active'); // remove active class from hamburger button
   mobileMenu.classList.remove('show'); // remove show class from mobile menu
 });
+
+document.onkeydown = (e) => {
+  // The Enter/Return key
+  if (e.key === 'control') {
+    document.activeElement.click();
+  }
+};
