@@ -10,12 +10,17 @@
 }
 
 :root {
-  --black-text: #272a31;
-  --orange-text: #ec5242;
-  --white-text: white;
-  --gray-text: #d3d3d3;
+  --black: #272a31;
+  --orange: #ec5242;
+  --white: white;
+  --gray: #d3d3d3;
 }
 
 body {
   font-family: "Lato", Arial, sans-serif;
+}
+
+#header {
+  display: none;
+  background-color: var(--black)
 }
