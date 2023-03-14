@@ -24,42 +24,42 @@ document.onkeydown = (e) => {
 // Content created dynamically
 const topics = [
   {
-    topicImage: '../assets/img/featured-topics/1.png',
+    topicImage: './assets/img/featured-topics/1.png',
     alt: 'Business English',
     topicTitle: 'Business English',
     talkTime: 'Talk Time: 1h 30m',
     topicDescription: 'Learn French and take your life to the next level',
   },
   {
-    topicImage: '../assets/img/featured-topics/2.png',
+    topicImage: './assets/img/featured-topics/2.png',
     alt: 'French',
     topicTitle: 'French',
     talkTime: 'Talk Time: 2h 30m',
     topicDescription: 'Learn French and take your life to the next level',
   },
   {
-    topicImage: '../assets/img/featured-topics/3.png',
+    topicImage: './assets/img/featured-topics/3.png',
     alt: 'Chinese',
     topicTitle: 'Chinese',
     talkTime: 'Talk Time: 3h 30m',
     topicDescription: 'Learn Chinese and take your life to the next level',
   },
   {
-    topicImage: '../assets/img/featured-topics/4.png',
+    topicImage: './assets/img/featured-topics/4.png',
     alt: 'English',
     topicTitle: 'English',
     talkTime: 'Talk Time: 2h 30m',
     topicDescription: 'Learn English and take your life to the next level',
   },
   {
-    topicImage: '../assets/img/featured-topics/5.png',
+    topicImage: './assets/img/featured-topics/5.png',
     alt: 'Spanish',
     topicTitle: 'Spanish',
     talkTime: 'Talk Time: 1h 30m',
     topicDescription: 'Learn Spanish and take your life to the next level',
   },
   {
-    topicImage: '../assets/img/featured-topics/7.png',
+    topicImage: './assets/img/featured-topics/7.png',
     alt: 'Languages and technology',
     topicTitle: 'Languages and technology',
     talkTime: 'Talk Time: 1h 30m',
