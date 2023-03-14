@@ -31,6 +31,7 @@ body {
 #nav-bar {
   display: flex;
   justify-content: space-between;
+  background-color: var(--gray);
 }
 
 #nav-bar div button {
@@ -524,4 +525,19 @@ body {
   top: 28%;
   transform: translateX(-50%);
   color: var(--black);
+}
+
+.section-four {
+  display: none;
+}
+
+#footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--gray);
+  font-family: inherit;
+  font-size: 0.7rem;
+  font-weight: 600;
 }
