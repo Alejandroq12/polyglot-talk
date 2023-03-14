@@ -541,8 +541,8 @@ body {
   font-size: 0.7rem;
   font-weight: 600;
 }
-/* about us */
 
+/* about us */
 .about-h1 {
   font-family: inherit;
   color: var(--orange);
@@ -599,4 +599,27 @@ body {
   font-size: 1.1rem;
   font-weight: 700;
   text-decoration: underline;
+}
+
+.about-section-two__h2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-family: inherit;
+  font-size: 1.5rem;
+  font-weight: 800;
+  color: var(--black);
+  margin: 0.7rem 0.8rem;
+}
+
+.about-section__two .about-section-two__p1 {
+  font-family: inherit;
+  font-size: 1.1rem;
+  font-weight: 500;
+  margin: 0.7rem 0.8rem;
+  border: 2px solid var(--gray);
+  padding: 1rem;
+  background-color: var(--gray);
 }
