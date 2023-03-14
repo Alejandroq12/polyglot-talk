@@ -567,11 +567,36 @@ body {
   margin-bottom: 1rem;
 }
 
-.section-one__p {
+.about-div__p1 {
   font-family: inherit;
   font-size: 1.1rem;
   font-weight: 500;
   margin: 0.7rem 0.8rem;
   border: 2px solid var(--gray);
   padding: 1rem;
+  background-color: var(--gray);
+}
+
+.about-div__container2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0.7rem 0.8rem;
+}
+
+.about-div-container2__p1 {
+  text-align: center;
+  font-family: inherit;
+  font-size: 0.9rem;
+  font-weight: 500;
+  margin: 0.7rem 0.8rem;
+  padding: 2rem;
+}
+
+.about-div-container2__p1 .container2-p1__span {
+  font-family: inherit;
+  font-size: 1.1rem;
+  font-weight: 700;
+  text-decoration: underline;
 }
