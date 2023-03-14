@@ -12,9 +12,58 @@ closeBtn.addEventListener('click', () => {
   mobileMenu.classList.remove('show'); // remove show class from mobile menu
 });
 
+// This is to add accessibility to the pages
+// by allowing the user to press the enter key to click on the hamburger button
 document.onkeydown = (e) => {
   // The Enter/Return key
   if (e.key === 'control') {
     document.activeElement.click();
   }
 };
+
+// Content created dynamically
+
+const topics = [
+  {
+    topicImage: '../assets/img/featured-topics/1.png',
+    alt: 'Business English',
+    topicTitle: 'Business English',
+    talkTime: 'Talk Time: 1h 30m',
+    topicDescription: 'Learn English for business and work',
+  },
+  {
+    topicImage: '../assets/img/featured-topics/2.png',
+    alt: 'French',
+    topicTitle: 'French',
+    talkTime: 'Talk Time: 2h 30m',
+    topicDescription: 'Learn French and take your life to the next level',
+  },
+  {
+    topicImage: '../assets/img/featured-topics/3.png',
+    alt: 'Chinese',
+    topicTitle: 'Chinese',
+    talkTime: 'Talk Time: 3h 30m',
+    topicDescription: 'Learn Chinese and take your life to the next level',
+  },
+  {
+    topicImage: '../assets/img/featured-topics/4.png',
+    alt: 'English',
+    topicTitle: 'English',
+    talkTime: 'Talk Time: 2h 30m',
+    topicDescription: 'Learn English and take your life to the next level',
+  },
+  {
+    topicImage: '../assets/img/featured-topics/5.png',
+    alt: 'Spanish',
+    topicTitle: 'Spanish',
+    talkTime: 'Talk Time: 1h 30m',
+    topicDescription: 'Learn Spanish and take your life to the next level',
+  },
+  {
+    topicImage: '../assets/img/featured-topics/7.png',
+    alt: 'Languages and technology',
+    topicTitle: 'Languages and technology',
+    talkTime: 'Talk Time: 1h 30m',
+    topicDescription: 'Learn labguages and technology and take your life to the next level',
+  },
+];
