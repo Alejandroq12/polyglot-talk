@@ -408,8 +408,8 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding: 1rem;
-  margin: 0.3rem;
+  padding: 0.2rem;
+  margin: 0.2rem;
   border: none;
 }
 
@@ -418,7 +418,7 @@ body {
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  padding: 0.1rem;
+  padding: 0.2rem;
   margin: 0.6rem;
   border: none;
   border-radius: 0.5rem;
@@ -442,7 +442,7 @@ body {
 
 .section-three__card .section-three__card__time {
   font-family: inherit;
-  font-size: 0.7rem;
+  font-size: 0.9rem;
   font-weight: 500;
   color: var(--orange);
   margin: 0.3rem;
@@ -450,8 +450,15 @@ body {
 
 .section-three__card .section-three__card__description {
   font-family: inherit;
-  font-size: 0.7rem;
+  font-size: 0.9rem;
   font-weight: 500;
   color: var(--white);
   margin: 0.3rem;
+  margin-top: 0.5rem;
+}
+
+.card-divider {
+  border-top: 1px solid var(--white);
+  margin: 0.3rem;
+  width: 2rem;
 }

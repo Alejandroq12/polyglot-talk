@@ -28,7 +28,7 @@ const topics = [
     alt: 'Business English',
     topicTitle: 'Business English',
     talkTime: 'Talk Time: 1h 30m',
-    topicDescription: 'Learn English for business and work',
+    topicDescription: 'Learn French and take your life to the next level',
   },
   {
     topicImage: '../assets/img/featured-topics/2.png',
@@ -79,9 +79,12 @@ topics.forEach((topic) => {
     <div class="card-img__container">
         <img class="section-three__card__img" src="${topic.topicImage}" alt="${topic.alt}">
     </div>
+    <div class="section-three__card__text">
         <h3 class="section-three__card__title">${topic.topicTitle}</h3>
         <p class="section-three__card__time">${topic.talkTime}</p>
+        <div class="card-divider"></div>
         <p class="section-three__card__description">${topic.topicDescription}</p>
+    </div>
 `;
   topicsContainer.appendChild(card);
 });
