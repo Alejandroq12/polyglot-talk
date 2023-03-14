@@ -52,7 +52,6 @@ body {
   width: 100%;
   height: 100%;
   display: none;
-  /* Hide mobile menu by default */
   background-color: var(--black);
 }
 
@@ -120,7 +119,7 @@ body {
   font-size: 2.5rem;
 }
 
-#nav-bar #hamburger-btn.active+.mobile-menu {
+#nav-bar #hamburger-btn.active + .mobile-menu {
   display: block;
 }
 
