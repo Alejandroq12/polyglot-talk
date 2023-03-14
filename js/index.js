@@ -22,7 +22,6 @@ document.onkeydown = (e) => {
 };
 
 // Content created dynamically
-
 const topics = [
   {
     topicImage: '../assets/img/featured-topics/1.png',
@@ -67,3 +66,22 @@ const topics = [
     topicDescription: 'Learn labguages and technology and take your life to the next level',
   },
 ];
+
+const topicsContainer = document.querySelector('.section-three__container');
+
+topics.forEach((topic) => {
+  const card = document.createElement('div');
+  card.classList.add('section-three__card');
+  card.setAttribute('tabindex', '0');
+  card.setAttribute('aria-label', topic.topicTitle);
+
+  card.innerHTML = `
+    <div class="section-three__card__image">
+        <img src="${topic.topicImage}" alt="${topic.alt}">
+    </div>
+        <h3 class="section-three__card__title">${topic.topicTitle}</h3>
+        <p class="section-three__card__time">${topic.talkTime}</p>
+        <p class="section-three__card__description">${topic.topicDescription}</p>
+`;
+  topicsContainer.appendChild(card);
+});
