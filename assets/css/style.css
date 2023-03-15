@@ -208,17 +208,10 @@ body {
   padding-top: 2rem;
 }
 
-.section-two__hr {
-  border: none;
-  border-top: 1px solid var(--orange);
-  margin: 0.5rem auto;
-  width: 2rem;
-}
-
 .divider {
   border-top: 1px solid var(--orange);
   margin: 0.5rem auto;
-  width: 2rem;
+  width: 2.5rem;
 }
 
 .section-two__container {
@@ -885,14 +878,9 @@ body {
     padding-top: 2rem;
   }
 
-  .section-two__hr {
-    margin: 0.5rem auto;
-    width: 2rem;
-  }
-
   .divider {
     margin: 0.5rem auto;
-    width: 2rem;
+    width: 2.8rem;
   }
 
   .section-two__container {
