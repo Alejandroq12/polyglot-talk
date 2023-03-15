@@ -126,10 +126,11 @@ body {
   font-size: 2.5rem;
 }
 
-#nav-bar #hamburger-btn.active + .mobile-menu {
+#nav-bar #hamburger-btn.active+.mobile-menu {
   display: block;
 }
 
+/* Styles for section one */
 .section-one {
   background-image: url(../img/main-page/back.png);
   background-repeat: no-repeat;
@@ -177,16 +178,18 @@ body {
   font-family: inherit;
   color: var(--dark-gray);
   margin: 0.7rem 0.8rem;
-  font-size: 1.7rem;
+  font-size: 1.5rem;
   font-weight: 900;
 }
 
 .section-one__p2 span {
   display: block;
-  font-size: 0.9rem;
+  font-size: 1.1rem;
+  font-weight: 500;
   margin: 0.3rem 0 0.5rem 0;
 }
 
+/* Styles for section two */
 .section-two {
   margin-top: -1.8rem;
   background-color: var(--black);
@@ -797,7 +800,47 @@ body {
 }
 
 @media screen and (min-width: 600px) {
-  /* Screens larger than 600px */
+
+  /* Styles for section one */
+  .section-one {
+    background-image: url(../img/main-page/back.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: right 0 bottom 0;
+    padding-bottom: 4.5rem;
+  }
+
+  .section-one__h1 {
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin: 0 0.8rem;
+  }
+
+  .section-one__h2 {
+    font-size: 2.7rem;
+    font-weight: 900;
+    margin: 0 0.8rem;
+    margin-bottom: 1rem;
+  }
+
+  .section-one__p {
+    font-size: 1.5rem;
+    font-weight: 500;
+    margin: 0.7rem 0.8rem;
+    padding: 1rem;
+  }
+
+  .section-one__p2 {
+    margin: 0.7rem 0.8rem;
+    font-size: 2.5rem;
+    font-weight: 900;
+  }
+
+  .section-one__p2 span {
+    font-size: 2.1rem;
+    font-weight: 500;
+    margin: 0.3rem 0 0.5rem 0;
+  }
 }
 
 @media screen and (min-width: 768px) {
