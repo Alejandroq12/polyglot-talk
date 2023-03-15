@@ -17,6 +17,7 @@
   --dark-gray: #595959;
   --dark-gray-rgb: 89, 89, 89;
   --orange-transparency: rgba(236, 82, 66, 0.7);
+  --gray-transparency: rgba(211, 211, 211, 0.3);
 }
 
 body {
@@ -579,6 +580,7 @@ body {
 
 .about-h1 {
   font-family: inherit;
+  text-align: center;
   color: var(--orange);
   font-size: 1.2rem;
   font-weight: 700;
@@ -587,6 +589,7 @@ body {
 
 .about-h2 {
   font-family: Lexend Deca, sans-serif;
+  text-align: center;
   font-size: 2.1rem;
   font-weight: 900;
   background-image: url(../img/images/back-img.jpg);
@@ -602,6 +605,7 @@ body {
 
 .about-div__p1 {
   font-family: inherit;
+  text-align: center;
   font-size: 1.1rem;
   font-weight: 500;
   margin: 0.7rem 0.8rem;
@@ -666,6 +670,17 @@ body {
   width: 100%;
 }
 
+.separate_section2_section3__hr {
+  width: 100%;
+  height: 1px;
+  border-color: var(--gray-transparency);
+  margin: 3rem 0 2.2rem 0;
+}
+
+.about-section__three {
+  margin-bottom: 2.2rem;
+}
+
 .about-section__three .about-section-three__h2 {
   display: flex;
   flex-direction: column;
@@ -676,8 +691,7 @@ body {
   font-size: 1.4rem;
   font-weight: 800;
   color: var(--black);
-  margin: 0.7rem 0.8rem;
-  padding-top: 1rem;
+  margin: 0 0.8rem;
 }
 
 .about-section__three .about-section-three__p1 {
@@ -685,7 +699,7 @@ body {
   font-family: inherit;
   font-size: 1.1rem;
   font-weight: 500;
-  margin: 0.7rem 0.8rem;
+  margin: 0.5rem 0.8rem;
   border: none;
   padding: 1.8rem;
 }
