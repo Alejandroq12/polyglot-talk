@@ -769,3 +769,7 @@ body {
   object-fit: contain;
   margin: 0 auto;
 }
+
+@media screen and (min-width: 480px) {
+  /* Screens larger than 480px here */
+}
