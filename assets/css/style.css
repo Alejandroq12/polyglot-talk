@@ -436,7 +436,7 @@ body {
   margin: 0.6rem;
   border: none;
   border-radius: 0.5rem;
-  background-color: var(--dark-gray);
+  background-color: rgba(var(--dark-gray-rgb), 0.3);
   width: 96%;
 }
 
@@ -451,7 +451,7 @@ body {
   font-family: inherit;
   font-size: 1rem;
   font-weight: 700;
-  color: var(--white);
+  color: var(--black);
   margin: 0.3rem;
 }
 
@@ -467,15 +467,15 @@ body {
   font-family: inherit;
   font-size: 0.9rem;
   font-weight: 500;
-  color: var(--white);
+  color: var(--black);
   margin: 0.3rem;
   margin-top: 0.5rem;
 }
 
 .card-divider {
-  border-top: 1px solid var(--white);
-  margin: 0.3rem;
-  width: 2rem;
+  border-top: 2px solid rgba(var(--dark-gray-rgb), 0.3);
+  margin: 0.4rem;
+  width: 1.9rem;
 }
 
 .section-three__h2 {
