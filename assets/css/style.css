@@ -705,3 +705,26 @@ body {
   width: 100%;
   height: auto;
 }
+
+/* Partner - section four */
+.about-section__four {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: var(--black);
+}
+
+.about-section__four .about-section-four__h2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-family: inherit;
+  font-size: 1.5rem;
+  font-weight: 800;
+  color: var(--white);
+  margin: 0.7rem 0.8rem;
+  margin-top: 1rem;
+  padding-top: 1rem;
+}
