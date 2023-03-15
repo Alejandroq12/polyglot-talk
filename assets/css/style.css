@@ -670,8 +670,8 @@ body {
   margin: 0.6rem;
 }
 
-.about-section-three__container2:before,
-.about-section-three__container3:before{
+.about-section-three__container2::before,
+.about-section-three__container3::before {
   content: "";
   display: block;
   position: absolute;
