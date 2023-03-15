@@ -771,5 +771,10 @@ body {
 }
 
 @media screen and (min-width: 480px) {
-  /* Screens larger than 480px here */
+  /* Screens larger than 480px */
 }
+
+@media screen and (min-width: 600px) {
+  /* Screens larger than 600px */
+}
+
