@@ -15,6 +15,7 @@
   --white: white;
   --gray: #d3d3d3;
   --dark-gray: #595959;
+  --dark-gray-rgb: 89, 89, 89;
   --orange-transparency: rgba(236, 82, 66, 0.7);
 }
 
@@ -32,7 +33,10 @@ body {
 #nav-bar {
   display: flex;
   justify-content: space-between;
-  background-color: var(--gray);
+  background-image: url(../img/main-page/back.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: bottom -50px right 0;
 }
 
 #nav-bar div button {
@@ -126,13 +130,21 @@ body {
   display: block;
 }
 
+.section-one {
+  background-image: url(../img/main-page/back.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: right 0 bottom 0;
+  padding-bottom: 4.5rem;
+  background-color: black;
+}
+
 .section-one__h1 {
   font-family: inherit;
   color: var(--orange);
   font-size: 1.2rem;
   font-weight: 700;
   margin: 0 0.8rem;
-  margin-top: 1rem;
 }
 
 .section-one__h2 {
@@ -155,8 +167,9 @@ body {
   font-size: 1.1rem;
   font-weight: 500;
   margin: 0.7rem 0.8rem;
-  border: 2px solid var(--gray);
+  border: 3px solid var(--white);
   padding: 1rem;
+  background-color: var(--gray);
 }
 
 .section-one__p2 {
@@ -175,7 +188,10 @@ body {
 }
 
 .section-two {
+  margin-top: -1.8rem;
   background-color: var(--black);
+  background-image: url(../img/main-page/info-background.png);
+  background-repeat: repeat;
 }
 
 .section-two__h2 {
@@ -207,7 +223,7 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding: 1rem;
+  padding: 0.6rem;
 }
 
 .container-card__one {
@@ -218,12 +234,11 @@ body {
   padding: 1rem;
   margin: 0.3rem;
   border: none;
-  border-radius: 0.5rem;
-  background-color: var(--dark-gray);
+  background-color: rgba(var(--dark-gray-rgb), 0.3);
 }
 
 .container-card__one .card-one__img1 {
-  width: 2.8rem;
+  width: 3rem;
   height: 2.7rem;
   margin: 0.4rem;
   margin-left: -0.1rem;
@@ -253,12 +268,11 @@ body {
   padding: 1rem;
   margin: 0.3rem;
   border: none;
-  border-radius: 0.5rem;
-  background-color: var(--dark-gray);
+  background-color: rgba(var(--dark-gray-rgb), 0.3);
 }
 
 .container-card__two .card-two__img1 {
-  width: 2.8rem;
+  width: 3rem;
   height: 2.7rem;
   margin: 0.4rem;
   margin-left: -0.1rem;
@@ -288,12 +302,11 @@ body {
   padding: 1rem;
   margin: 0.3rem;
   border: none;
-  border-radius: 0.5rem;
-  background-color: var(--dark-gray);
+  background-color: rgba(var(--dark-gray-rgb), 0.3);
 }
 
 .container-card__three .card-three__img1 {
-  width: 2.8rem;
+  width: 3rem;
   height: 2.7rem;
   margin: 0.4rem;
   margin-left: -0.1rem;
@@ -323,12 +336,11 @@ body {
   padding: 1rem;
   margin: 0.3rem;
   border: none;
-  border-radius: 0.5rem;
-  background-color: var(--dark-gray);
+  background-color: rgba(var(--dark-gray-rgb), 0.3);
 }
 
 .container-card__four .card-four__img1 {
-  width: 2.8rem;
+  width: 3rem;
   height: 2.7rem;
   margin: 0.4rem;
   margin-left: -0.1rem;
@@ -358,12 +370,11 @@ body {
   padding: 1rem;
   margin: 0.3rem;
   border: none;
-  border-radius: 0.5rem;
-  background-color: var(--dark-gray);
+  background-color: rgba(var(--dark-gray-rgb), 0.3);
 }
 
 .container-card__five .card-five__img1 {
-  width: 2.8rem;
+  width: 3rem;
   height: 2.7rem;
   margin: 0.4rem;
   margin-left: -0.1rem;
@@ -402,8 +413,7 @@ body {
   margin: 0.5rem auto;
   width: 10.5rem;
   height: 3rem;
-  border-radius: 0.5rem;
-  background: linear-gradient(9deg, var(--black) 8%, var(--orange) 50%, var(--black) 100%);
+  background: var(--orange);
 }
 
 /* Section Three */
@@ -478,6 +488,7 @@ body {
   font-weight: 800;
   color: var(--black);
   margin: 0.3rem;
+  padding-top: 1.2rem;
 }
 
 .section-three__card.num-2,
@@ -498,14 +509,14 @@ body {
 
 .div-button__more {
   color: var(--white);
-  background: linear-gradient(9deg, var(--black) 8%, var(--orange) 50%, var(--black) 100%);
-  border: 0.1rem solid var(--black);
+  background: var(--orange);
   width: 100%;
   padding: 1rem;
   margin-top: 1rem;
   font-size: 1rem;
   font-weight: 800;
   position: relative;
+  border: none;
 }
 
 .div-button__more::after {
@@ -534,35 +545,22 @@ body {
   display: none;
 }
 
-#footer {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-  background-color: var(--gray);
-  font-family: inherit;
-  font-size: 0.7rem;
-  font-weight: 600;
-}
-
-.footer-div__container1 img {
-  width: 15rem;
-  height: 5rem;
-  margin-left: -3rem;
-}
-
-.footer-div__container2 {
-  margin-left: -3.5rem;
-}
-
 /* about us */
+.about-section__one {
+  background-image: url(../img/main-page/back.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: right 0 bottom 0;
+  padding-bottom: 1.5rem;
+  background-color: black;
+}
+
 .about-h1 {
   font-family: inherit;
   color: var(--orange);
   font-size: 1.2rem;
   font-weight: 700;
   margin: 0 0.8rem;
-  margin-top: 1rem;
 }
 
 .about-h2 {
@@ -587,7 +585,7 @@ body {
   margin: 0.7rem 0.8rem;
   border: 2px solid var(--gray);
   padding: 1rem;
-  background-color: var(--gray);
+  background-color: var(--white);
 }
 
 .about-div__container2 {
@@ -604,7 +602,7 @@ body {
   font-size: 0.9rem;
   font-weight: 500;
   margin: 0.7rem 0.8rem;
-  padding: 2rem;
+  padding: 0.2rem;
 }
 
 .about-div-container2__p1 .container2-p1__span {
@@ -625,6 +623,7 @@ body {
   font-weight: 800;
   color: var(--black);
   margin: 0.7rem 0.8rem;
+  padding-top: 1rem;
 }
 
 .about-section__two .about-section-two__p1 {
@@ -652,10 +651,11 @@ body {
   align-items: center;
   text-align: center;
   font-family: inherit;
-  font-size: 1.5rem;
+  font-size: 1.4rem;
   font-weight: 800;
   color: var(--black);
   margin: 0.7rem 0.8rem;
+  padding-top: 1rem;
 }
 
 .about-section__three .about-section-three__p1 {
@@ -769,6 +769,27 @@ body {
   max-height: 100%;
   object-fit: contain;
   margin: 0 auto;
+}
+
+#footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--gray);
+  font-family: inherit;
+  font-size: 0.7rem;
+  font-weight: 600;
+}
+
+.footer-div__container1 img {
+  width: 15rem;
+  height: 5rem;
+  margin-left: -4rem;
+}
+
+.footer-div__container2 {
+  margin-left: -3.5rem;
 }
 
 @media screen and (min-width: 480px) {
