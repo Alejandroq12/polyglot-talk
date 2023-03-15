@@ -1059,34 +1059,23 @@ body {
   }
 
   .div-a__list {
-    font-size: 0.9rem;
+    font-size: 1.2rem;
     font-weight: 800;
     margin: 0.5rem auto;
-    width: 10.5rem;
-    height: 3rem;
+    width: 15.5rem;
+    height: 4.8rem;
   }
 
   /* Styles for section three */
   .section-three__container {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
     padding: 0.2rem;
     margin: 0.2rem;
-    border: none;
   }
 
   .section-three__container .section-three__card {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
     padding: 0.2rem;
     margin: 0.6rem;
-    border: none;
     border-radius: 0.5rem;
-    background-color: rgba(var(--dark-gray-rgb), 0.3);
     width: 96%;
   }
 
@@ -1098,45 +1087,32 @@ body {
   }
 
   .section-three__card .section-three__card__title {
-    font-family: inherit;
     font-size: 1rem;
     font-weight: 700;
-    color: var(--black);
     margin: 0.3rem;
   }
 
   .section-three__card .section-three__card__time {
-    font-family: inherit;
     font-size: 0.9rem;
     font-weight: 500;
-    color: var(--orange);
     margin: 0.3rem;
   }
 
   .section-three__card .section-three__card__description {
-    font-family: inherit;
     font-size: 0.9rem;
     font-weight: 500;
-    color: var(--black);
     margin: 0.3rem;
     margin-top: 0.5rem;
   }
 
   .card-divider {
-    border-top: 2px solid rgba(var(--dark-gray-rgb), 0.3);
     margin: 0.4rem;
     width: 1.9rem;
   }
 
   .section-three__h2 {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    font-family: inherit;
-    font-size: 1.5rem;
+    font-size: 1.6rem;
     font-weight: 800;
-    color: var(--black);
     margin: 0.3rem;
     padding-top: 1.2rem;
   }
@@ -1158,37 +1134,29 @@ body {
   }
 
   .div-button__more {
-    color: var(--white);
-    background: var(--orange);
     width: 100%;
     padding: 1rem;
     margin-top: 1rem;
-    font-size: 1rem;
+    font-size: 1.2rem;
     font-weight: 800;
-    position: relative;
-    border: none;
   }
 
   .div-button__more::after {
     content: "⮟";
     font-size: 1.2rem;
-    position: absolute;
     bottom: -1.5rem;
     left: 62%;
     top: 28%;
     transform: translateX(-50%);
-    color: var(--black);
   }
 
   .btn-active::after {
     content: "⮝";
     font-size: 1.2rem;
-    position: absolute;
     bottom: -1.5rem;
     left: 62%;
     top: 28%;
     transform: translateX(-50%);
-    color: var(--black);
   }
 }
 
