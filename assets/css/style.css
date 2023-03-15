@@ -126,7 +126,7 @@ body {
   font-size: 2.5rem;
 }
 
-#nav-bar #hamburger-btn.active+.mobile-menu {
+#nav-bar #hamburger-btn.active + .mobile-menu {
   display: block;
 }
 
@@ -799,8 +799,8 @@ body {
   /* Screens larger than 480px */
 }
 
+/* Screens larger than 600px */
 @media screen and (min-width: 600px) {
-
   /* Styles for section one */
   .section-one {
     background-image: url(../img/main-page/back.png);
