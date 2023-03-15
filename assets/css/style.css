@@ -427,6 +427,7 @@ body {
   border: none;
   border-radius: 0.5rem;
   background-color: var(--dark-gray);
+  width: 96%;
 }
 
 .card-img__container .section-three__card__img {

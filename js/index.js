@@ -68,7 +68,7 @@ const topics = [
     alt: 'Languages and technology',
     topicTitle: 'Languages and technology',
     talkTime: 'Talk Time: 1h 30m',
-    topicDescription: 'Learn labguages and technology and take your life to the next level',
+    topicDescription: 'Learn languages and take your life to the next level',
     number: 'num-5',
   },
 ];
