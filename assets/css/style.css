@@ -778,3 +778,6 @@ body {
   /* Screens larger than 600px */
 }
 
+@media screen and (min-width: 768px) {
+  /* screens larger than 768px */
+}
