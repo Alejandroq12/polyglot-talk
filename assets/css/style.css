@@ -1563,34 +1563,30 @@ body {
 
   .about-section__three {
     margin-bottom: 2.2rem;
+    padding: 0.1rem 6rem 2rem 6rem;
   }
 
   .about-section__three .about-section-three__h2 {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    font-family: inherit;
-    font-size: 1.4rem;
-    font-weight: 800;
+    font-size: 1.3rem;
+    font-weight: 600;
     color: var(--black);
     margin: 0 0.8rem;
+    padding: 1rem 0 0.4rem 0
   }
 
   .about-section__three .about-section-three__p1 {
     text-align: center;
     font-family: inherit;
-    font-size: 1.1rem;
-    font-weight: 500;
+    font-size: 1rem;
+    font-weight: 400;
     margin: 0.5rem 0.8rem;
     border: none;
-    padding: 1.8rem;
+    padding: 0.4rem 0 2rem 0;
   }
 
   .about-section__three .about-section-three__container {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     justify-content: center;
     align-items: center;
     width: 100%;
@@ -1654,10 +1650,10 @@ body {
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    background-color: var(--gray);
+    background-color: var(--light-black);
     font-family: inherit;
-    font-size: 0.7rem;
-    font-weight: 600;
+    font-size: 1rem;
+    font-weight: 300;
   }
 
   .footer-div__container1 img {
@@ -1667,6 +1663,7 @@ body {
 
   .footer-div__container2 {
     margin-left: -3.5rem;
+    color: var(--white);
   }
 }
 
