@@ -1309,12 +1309,6 @@ body {
     background: var(--orange);
   }
 
-
-
-
-
-
-
   /* Styles for section three */
   .section-three__h2 {
     font-size: 1.6rem;
@@ -1324,15 +1318,17 @@ body {
   }
 
   .section-three__container {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-auto-rows: auto;
+    gap: 0.2rem;
+    justify-items: center;
     align-items: center;
-    padding: 0.2rem;
+    padding: 2rem 5rem 5rem 5rem;
     margin: 0.2rem;
     border: none;
   }
-
+  
   .section-three__container .section-three__card {
     display: flex;
     flex-direction: row;
@@ -1345,38 +1341,39 @@ body {
     background-color: rgba(var(--dark-gray-rgb), 0.3);
     width: 96%;
   }
-
+  
   .card-img__container .section-three__card__img {
     width: 5.2rem;
     height: 5.2rem;
     margin: 0.4rem;
     margin-left: 0.3rem;
   }
-
+  
   .section-three__card .section-three__card__title {
     font-size: 1rem;
     font-weight: 700;
     margin: 0.3rem;
   }
-
+  
   .section-three__card .section-three__card__time {
     font-size: 0.9rem;
     font-weight: 500;
     margin: 0.3rem;
   }
-
+  
   .section-three__card .section-three__card__description {
     font-size: 0.9rem;
     font-weight: 500;
     margin: 0.3rem;
     margin-top: 0.5rem;
   }
-
+  
   .card-divider {
     border-top: 2px solid rgba(var(--dark-gray-rgb), 0.3);
     margin: 0.4rem;
     width: 1.9rem;
   }
+  
 
   .section-three__card.num-2,
   .section-three__card.num-3,

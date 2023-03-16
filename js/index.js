@@ -66,7 +66,7 @@ const topics = [
   {
     topicImage: './assets/img/featured-topics/7.png',
     alt: 'Languages and technology',
-    topicTitle: 'Languages and technology',
+    topicTitle: 'Languages and tech',
     talkTime: 'Talk Time: 1h 30m',
     topicDescription: 'Learn languages and take your life to the next level',
     number: 'num-5',
