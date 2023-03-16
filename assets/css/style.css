@@ -1346,22 +1346,7 @@ body {
     position: relative;
     transition: transform 0.3s ease-in-out;
   }
-  .section-three__container .section-three__card {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    padding: 0.2rem;
-    margin: 0.6rem;
-    border: none;
-    border-radius: 0.5rem;
-    background-color: rgba(var(--dark-gray-rgb), 0.3);
-    width: 96%;
-    box-shadow: rgba(0, 0, 0, 0.56) 0 22px 70px 4px;
-    position: relative;
-    transition: transform 0.3s ease-in-out;
-  }
-  
+
   /* Add this new class for the white background using ::before pseudo-element */
   .section-three__container .section-three__card::before {
     content: "";
@@ -1375,13 +1360,13 @@ body {
     z-index: -1;
     transition: opacity 0.3s ease-in-out;
   }
-  
+
   /* Add this hover effect for the cards */
   .section-three__container .section-three__card:hover {
     transform: translateY(-5px);
     cursor: pointer;
   }
-  
+
   /* Add this hover effect for the white background */
   .section-three__container .section-three__card:hover::before {
     opacity: 1;
@@ -1805,7 +1790,6 @@ body {
 
   /* Styles for section one */
   .section-one {
-    padding-bottom: 4.5rem;
     padding: 5rem 4rem 11rem 4rem;
   }
 
@@ -2308,7 +2292,7 @@ body {
     align-items: center;
     background-color: var(--gray);
     font-family: inherit;
-    font-size: 1rem;
+    font-size: 1.2rem;
     font-weight: 300;
   }
 
@@ -2325,8 +2309,8 @@ body {
   }
 
   .footer-div__container1 img {
-    width: 19rem;
-    height: 7rem;
+    width: 24rem;
+    height: 11rem;
   }
 }
 
