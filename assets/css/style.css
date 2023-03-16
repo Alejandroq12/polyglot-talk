@@ -1240,9 +1240,7 @@ body {
     background-color: rgba(var(--dark-gray-rgb), 0.3);
     transition: transform 0.3s, box-shadow 0.3s;
     height: 160px;
-    width: 220px;
   }
-  
 
   .card:hover {
     transform: translateY(-0.5rem);
@@ -1254,6 +1252,7 @@ body {
   .container-card__three.card,
   .container-card__four.card,
   .container-card__five.card {
+    width: 220px;
   }
 
   .card img {
@@ -1289,7 +1288,7 @@ body {
     padding: 0 0 0 0;
     width: calc(100% - 1em);
   }
-  
+
   .section-two__link {
     padding-bottom: 1.4rem;
   }
