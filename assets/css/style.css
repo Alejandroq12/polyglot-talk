@@ -1396,9 +1396,59 @@ body {
     display: none;
   }
 
+  /* Partner - section four */
+  .section-four {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: var(--black);
+    padding: 2rem 1rem 2rem 1rem;
+  }
+
+  .section-four h2 {
+    font-size: 1.6rem;
+    font-weight: 700;
+    color: var(--dark-gray);
+    margin: 0 1rem;
+    padding-top: 0;
+  }
+
+  .section-four__divider {
+    margin-top: 1rem;
+  }
+
+  .section-four__container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+    margin: 1.8rem 0.8rem 1rem 0.8rem;
+  }
+
+  .section-four-container__card1,
+  .section-four-container__card2,
+  .section-four-container__card3,
+  .section-four-container__card4,
+  .section-four-container__card5 {
+    flex: 0 0 calc(25.33% - 1rem);
+    margin: 0;
+    text-align: center;
+  }
+
+  .section-four-container__card1 img,
+  .section-four-container__card2 img,
+  .section-four-container__card3 img,
+  .section-four-container__card4 img,
+  .section-four-container__card5 img {
+    max-width: 50%;
+    max-height: 50%;
+    object-fit: contain;
+    margin: 0 auto;
+  }
+
   /* Styles for section four */
   .section-four {
-    display: none;
+    display: flex;
   }
 
   /* about us */
@@ -1595,55 +1645,7 @@ body {
 
   /* Partner - section four */
   .about-section__four {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    background-color: var(--black);
-    padding: 1rem 0 2rem 0;
-  }
-
-  .about-section__four .about-section-four__h2 {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    font-family: inherit;
-    font-size: 1.5rem;
-    font-weight: 800;
-    color: var(--white);
-    margin: 0.7rem 0.8rem;
-    margin-top: 1rem;
-    padding-top: 1rem;
-  }
-
-  .about-section-four__container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
-    margin: 0.9rem 0.8rem 0.8rem 0.8rem;
-  }
-
-  .about-section-four-container__card1,
-  .about-section-four-container__card2,
-  .about-section-four-container__card3,
-  .about-section-four-container__card4,
-  .about-section-four-container__card5 {
-    flex: 0 0 calc(33.33% - 1rem);
-    margin: 0.5rem;
-    text-align: center;
-  }
-
-  .about-section-four-container__card1 img,
-  .about-section-four-container__card2 img,
-  .about-section-four-container__card3 img,
-  .about-section-four-container__card4 img,
-  .about-section-four-container__card5 img {
-    max-width: 100%;
-    max-height: 100%;
-    object-fit: contain;
-    margin: 0 auto;
+    display: none;
   }
 
   #footer {
