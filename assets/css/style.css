@@ -1417,14 +1417,14 @@ body {
     font-size: 1.3rem;
   }
 
-  .desktop-navigation__barr ul a:hover {
-    color: var(--orange);
-    transition: color 0.3s ease, color 0.3s ease;
-  }
-
   .desktop-navigation__bar ul a {
     display: flex;
     text-decoration: none;
+  }
+
+  .desktop-navigation__bar ul a:hover {
+    color: var(--orange);
+    transition: color 0.3s ease, color 0.3s ease;
   }
 
   #nav-bar ul a {
