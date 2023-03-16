@@ -1650,10 +1650,18 @@ body {
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    background-color: var(--light-black);
+    background-color: var(--gray);
     font-family: inherit;
     font-size: 1rem;
     font-weight: 300;
+  }
+
+  #footer.about-us__footer {
+    background-color: var(--light-black);
+  }
+
+  .about-us__footer .footer-div__container2 {
+    color: var(--white);
   }
 
   .footer-div__container1 img {
@@ -1663,7 +1671,6 @@ body {
 
   .footer-div__container2 {
     margin-left: -3.5rem;
-    color: var(--white);
   }
 }
 
