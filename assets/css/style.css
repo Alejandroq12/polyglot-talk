@@ -1309,7 +1309,20 @@ body {
     background: var(--orange);
   }
 
+
+
+
+
+
+
   /* Styles for section three */
+  .section-three__h2 {
+    font-size: 1.6rem;
+    font-weight: 700;
+    margin: 0.3rem;
+    padding-top: 1.2rem;
+  }
+
   .section-three__container {
     display: flex;
     flex-direction: column;
@@ -1341,26 +1354,20 @@ body {
   }
 
   .section-three__card .section-three__card__title {
-    font-family: inherit;
     font-size: 1rem;
     font-weight: 700;
-    color: var(--black);
     margin: 0.3rem;
   }
 
   .section-three__card .section-three__card__time {
-    font-family: inherit;
     font-size: 0.9rem;
     font-weight: 500;
-    color: var(--orange);
     margin: 0.3rem;
   }
 
   .section-three__card .section-three__card__description {
-    font-family: inherit;
     font-size: 0.9rem;
     font-weight: 500;
-    color: var(--black);
     margin: 0.3rem;
     margin-top: 0.5rem;
   }
@@ -1371,25 +1378,12 @@ body {
     width: 1.9rem;
   }
 
-  .section-three__h2 {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    font-family: inherit;
-    font-size: 1.5rem;
-    font-weight: 800;
-    color: var(--black);
-    margin: 0.3rem;
-    padding-top: 1.2rem;
-  }
-
   .section-three__card.num-2,
   .section-three__card.num-3,
   .section-three__card.num-4,
   .section-three__card.num-5,
   .section-three__card.num-6 {
-    display: none;
+    display: flex;
   }
 
   .section-three__card.num-2.active,
@@ -1401,37 +1395,7 @@ body {
   }
 
   .div-button__more {
-    color: var(--white);
-    background: var(--orange);
-    width: 100%;
-    padding: 1rem;
-    margin-top: 1rem;
-    font-size: 1rem;
-    font-weight: 800;
-    position: relative;
-    border: none;
-  }
-
-  .div-button__more::after {
-    content: "⮟";
-    font-size: 1.2rem;
-    position: absolute;
-    bottom: -1.5rem;
-    left: 62%;
-    top: 28%;
-    transform: translateX(-50%);
-    color: var(--black);
-  }
-
-  .btn-active::after {
-    content: "⮝";
-    font-size: 1.2rem;
-    position: absolute;
-    bottom: -1.5rem;
-    left: 62%;
-    top: 28%;
-    transform: translateX(-50%);
-    color: var(--black);
+    display: none;
   }
 
   /* Styles for section four */
