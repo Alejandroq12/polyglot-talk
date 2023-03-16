@@ -1391,7 +1391,6 @@ body {
     display: none;
   }
 
-
   .mobile-menu ul li {
     list-style-type: none;
     margin: 1rem;
@@ -1474,7 +1473,7 @@ body {
     background-repeat: repeat;
     background-size: contain;
     -webkit-background-clip: text;
-  
+
     /* background-clip: text; */
     color: transparent;
     margin: 0 0.8rem;
@@ -1913,7 +1912,7 @@ body {
     background-repeat: repeat;
     background-size: contain;
     -webkit-background-clip: text;
-  
+
     /* background-clip: text; */
     color: transparent;
     margin: 0 0.8rem;
