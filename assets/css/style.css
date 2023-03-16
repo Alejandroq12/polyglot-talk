@@ -11,6 +11,7 @@
 
 :root {
   --black: #272a31;
+  --light-black: #2e2e2e;
   --orange: #ec5242;
   --white: white;
   --gray: #d3d3d3;
@@ -613,7 +614,7 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-color: var(--black);
+  background-color: var(--light-black);
   padding: 1rem 0 2rem 0;
 }
 
@@ -1068,7 +1069,7 @@ body {
     justify-content: end;
     align-items: center;
     width: 100%;
-    background-color: var(--black);
+    background-color: var(--light-black);
     height: 40px;
   }
 
@@ -1401,14 +1402,14 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: var(--black);
+    background-color: var(--light-black);
     padding: 2rem 1rem 2rem 1rem;
   }
 
   .section-four h2 {
     font-size: 1.6rem;
     font-weight: 700;
-    color: var(--dark-gray);
+    color: rgba(var(--dark-gray-rgb), 1);
     margin: 0 1rem;
     padding-top: 0;
   }
@@ -1444,11 +1445,6 @@ body {
     max-height: 50%;
     object-fit: contain;
     margin: 0 auto;
-  }
-
-  /* Styles for section four */
-  .section-four {
-    display: flex;
   }
 
   /* about us */
