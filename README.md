@@ -53,6 +53,7 @@ Whether you are a language learner, teacher, or simply interested in the power o
   <ul>
     <li><a href="https://developer.mozilla.org/es/docs/Learn/HTML">HTML</a></li>
     <li><a href="https://developer.mozilla.org/es/docs/Web/CSS">CSS</a></li>
+        <li><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript">JavaScript</a></li>
   </ul>
 </details>
 
@@ -61,9 +62,9 @@ Whether you are a language learner, teacher, or simply interested in the power o
 
 ### Key Features <a name="key-features"></a>
 
-- **A fully functional contact form.**
-- **Mobile first porfolio.**
-- **Only using semantic HTML.**
+- **A fully functional website**
+- **Mobile first website**
+- **Only using semantic HTML**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -71,7 +72,7 @@ Whether you are a language learner, teacher, or simply interested in the power o
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- [Live Demo Link](https://alejandroq12.github.io/portfolio/)
+- [Live Demo Link](https://alejandroq12.github.io/polyglot-talk/index.html)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -93,7 +94,7 @@ To get a local copy up and running, follow these steps:
 
 In order to run this project you need:
 
-1. A web browser to see the website/porfolio.
+1. A web browser to see the website.
 
 2. And a code editor if you want to edit the code. For example, Vs Code.
 
@@ -103,7 +104,7 @@ Clone this repository to your desired folder:
 
 1. Clone it using your terminal:
 ```
-git clone https://github.com/Alejandroq12/portfolio.git
+git clone https://github.com/Alejandroq12/polyglot-talk.git
 ```
 
 2. If the previous method does not work you may also download the repo as a .zip file and once you decompress the .zip file you are ready to use it.
@@ -183,10 +184,6 @@ You can deploy this project using GitHub pages:
 - Twitter: [@JulioAle54](https://twitter.com/JulioAle54)
 - LinkedIn: [Julio Quezada](https://www.linkedin.com/in/quezadajulio/)
 
-👤 **Juan Sanchez**
-
-- GitHub: [J-C-S-V](https://github.com/J-C-S-V)
-- Twitter: [@juansan0](https://twitter.com/juansan0)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -194,9 +191,9 @@ You can deploy this project using GitHub pages:
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- [x] **I will add the desktop version**
-- [x] **I will add media queries to make it responsive**
-- [x] **I will use JavaScript to add interactivity**
+- [ ] **I will add a contact form**
+- [ ] **I will add media queries for larger screens**
+- [ ] **I will use JavaScript to add more**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -225,6 +222,11 @@ Thanks in advance.
 I would like to thank Wes Bos because I learned how to implement flexbox with his free tutorial:
 - Wes Bos: [Wes Bos](https://flexbox.io/)
 
+- Original design idea by Cindy Shin in Behance: [CC Global Summit 2015](https://www.behance.net/gallery/29845175/CC-Global-Summit-2015).
+
+- The Creative Commons license of the design requires that I give appropriate credit to the author. Therefore, I acknowledge the contribution of Cindy Shin for providing the original design idea used as a basis for this project.
+
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- FAQ (optional) -->
@@ -233,9 +235,9 @@ I would like to thank Wes Bos because I learned how to implement flexbox with hi
 
 - **Are you goin to use React in the future?**
 
-  - Yes! I will transform this portfolio into a React App.
+  - Yes! I will transform this website into a React App.
 
-- **Did you create this porfolio from scratch?**
+- **Did you create this website from scratch?**
 
   - Yes! From zero, and I will improve it a lot.
 
