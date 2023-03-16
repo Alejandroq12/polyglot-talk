@@ -40,6 +40,10 @@ body {
   background-position: bottom -50px right 0;
 }
 
+.desktop-navigation__bar {
+  display: none;
+}
+
 #nav-bar div button {
   background-color: transparent;
   color: var(--dark-gray);
@@ -1344,10 +1348,12 @@ body {
 @media screen and (min-width: 768px) {
   /* Screens larger than 768px */
   #header {
-    display: block;
+    display: flex;
+    justify-content: end;
+    align-items: center;
     width: 100%;
     background-color: var(--black);
-    height: 36px;
+    height: 40px;
   }
 
   .header-ul {
@@ -1360,7 +1366,7 @@ body {
 
   .header-ul li {
     display: inline-block;
-    margin: 2px 50px 10px -35px;
+    margin: 10px 50px 10px -35px;
     padding: 1px;
     vertical-align: middle;
   }
@@ -1373,15 +1379,6 @@ body {
   }
 
   /* Styles for nav bar */
-  #nav-bar {
-    display: flex;
-    justify-content: space-between;
-    background-image: url(../img/main-page/back.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: bottom -50px right 0;
-  }
-
   #nav-bar div button {
     display: none;
   }
@@ -1391,60 +1388,47 @@ body {
     display: none;
   }
 
-  .mobile-menu ul li {
-    list-style-type: none;
-    margin: 1rem;
+  #nav-bar {
+    display: flex;
+    justify-content: space-between;
+    background-image: none;
+    width: 100%;
+    background-color: var(--white);
+    height: 70px;
+    border-bottom: 1px solid var(--gray);
   }
 
-  .mobile-menu ul li a {
-    text-decoration: none;
-    font-size: 2rem;
+  #nav-bar  ul a {
+    color: var(--dark-gray)
   }
 
-  .mobile-menu ul li a:hover {
-    color: var(--orange);
+  .desktop-navigation__bar {
+    display: flex;
   }
 
   #nav-bar .nav-img__logo {
-    display: none;
-  }
-
-  /* This style is for the text in the nav bar */
-  #nav-bar ul a {
-    padding: 1rem;
     display: flex;
-    align-items: end;
-    text-decoration: none;
-    color: var(--white);
+    width: 22rem;
+    height: 10rem;
+    transform: translateY(-2.7rem);
+    margin-left: -2.4rem;
   }
 
-  #nav-bar ul a:hover {
+  .desktop-navigation__bar ul li {
+    display: inline-block;
+    margin: 4px 130px 10px -100px;
+    padding: 1px;
+    font-size: 1.3rem;
+  }
+
+  .desktop-navigation__bar ul a {
+    display: flex;
+    text-decoration: none;
+  }
+
+  .desktop-navigation__barr ul a:hover {
     color: var(--orange);
     transition: color 0.3s ease, color 0.3s ease;
-  }
-
-  .mobile-menu .close-button {
-    position: absolute;
-    top: 1rem;
-    right: 1rem;
-    font-size: 2rem;
-    color: var(--white);
-    cursor: pointer;
-  }
-
-  /* Styles for mobile menu open state */
-  #nav-bar ul.show-menu {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-
-  #nav-bar ul.show-menu a {
-    font-size: 2.5rem;
-  }
-
-  #nav-bar #hamburger-btn.active + .mobile-menu {
-    display: block;
   }
 
   /* Styles for section one */
