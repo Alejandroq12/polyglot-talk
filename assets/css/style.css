@@ -1433,35 +1433,23 @@ body {
 
   /* Styles for section one */
   .section-one {
-    background-image: url(../img/main-page/back.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: right 0 bottom 0;
     padding-bottom: 4.5rem;
-    background-color: black;
   }
 
   .section-one__h1 {
-    font-family: inherit;
-    color: var(--orange);
-    font-size: 1.2rem;
+    font-size: 2rem;
     font-weight: 700;
     margin: 0 0.8rem;
+    padding: 6.9rem 0 0 3rem;
   }
 
   .section-one__h2 {
     font-family: Lexend Deca, sans-serif;
     font-size: 2.1rem;
     font-weight: 900;
-    background-image: url(../img/images/back-img.jpg);
-    background-repeat: repeat;
-    background-size: contain;
-    -webkit-background-clip: text;
-
-    /* background-clip: text; */
-    color: transparent;
     margin: 0 0.8rem;
     margin-bottom: 1rem;
+    padding: 1.4rem 0 0 3rem;
   }
 
   .section-one__p {
@@ -1470,8 +1458,9 @@ body {
     font-weight: 500;
     margin: 0.7rem 0.8rem;
     border: 3px solid var(--white);
-    padding: 1rem;
+    margin: 1.8rem 8rem 2rem 3.7rem;
     background-color: var(--gray);
+    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;  
   }
 
   .section-one__p2 {
@@ -1479,15 +1468,16 @@ body {
     font-family: inherit;
     color: var(--dark-gray);
     margin: 0.7rem 0.8rem;
-    font-size: 1.5rem;
+    font-size: 1.7rem;
     font-weight: 900;
+    margin: 1.5rem 0 5rem 3.8rem;
   }
 
   .section-one__p2 span {
     display: block;
-    font-size: 1.1rem;
+    font-size: 1.4rem;
     font-weight: 500;
-    margin: 0.3rem 0 0.5rem 0;
+    margin: 0.5rem 0 0.5rem 0;
   }
 
   /* Styles for section two */
