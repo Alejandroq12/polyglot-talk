@@ -1453,7 +1453,7 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: right 0 bottom 0;
-    padding-bottom: 1.5rem;
+    padding: 6rem 8rem 6rem 8rem;
     background-color: black;
   }
 
@@ -1461,7 +1461,7 @@ body {
     font-family: inherit;
     text-align: center;
     color: var(--orange);
-    font-size: 1.2rem;
+    font-size: 1.5rem;
     font-weight: 700;
     margin: 0 0.8rem;
   }
@@ -1469,7 +1469,7 @@ body {
   .about-h2 {
     font-family: Lexend Deca, sans-serif;
     text-align: center;
-    font-size: 2.1rem;
+    font-size: 2.3rem;
     font-weight: 900;
     background-image: url(../img/images/back-img.jpg);
     background-repeat: repeat;
@@ -1479,16 +1479,23 @@ body {
     /* background-clip: text; */
     color: transparent;
     margin: 0 0.8rem;
-    margin-bottom: 1rem;
+    margin-bottom: 1.3rem;
+  }
+
+  .divider-about__desktop {
+    border-top: 1px solid var(--orange);
+    margin: 0.5rem auto;
+    padding-top: -20rem;
+    width: 2.5rem;
   }
 
   .about-div__p1 {
     font-family: inherit;
     text-align: center;
-    font-size: 1.1rem;
-    font-weight: 500;
-    margin: 0.7rem 0.8rem;
-    border: 2px solid var(--gray);
+    font-size: 0.9rem;
+    font-weight: 400;
+    margin: 2rem 0.8rem;
+    border: 1px solid var(--gray);
     padding: 1rem;
     background-color: var(--white);
   }
@@ -1502,15 +1509,17 @@ body {
   }
 
   .about-div-container2__p1 {
+    display: block;
     text-align: center;
     font-family: inherit;
-    font-size: 0.9rem;
+    font-size: 0.8rem;
     font-weight: 500;
     margin: 0.7rem 0.8rem;
     padding: 0.2rem;
   }
 
   .about-div-container2__p1 .container2-p1__span {
+    display: block;
     font-family: inherit;
     font-size: 1.1rem;
     font-weight: 700;
