@@ -1790,11 +1790,11 @@ body {
 
   /* Styles for section one */
   .section-one {
-    padding: 5rem 4rem 11rem 4rem;
+    padding: 8rem 4rem 16rem 4rem;
   }
 
   .section-one__h1 {
-    font-size: 2.5rem;
+    font-size: 4rem;
     font-weight: 700;
     margin: 0 0.8rem;
     padding: 6.9rem 0 0 3rem;
@@ -1802,7 +1802,7 @@ body {
 
   .section-one__h2 {
     font-family: Lexend Deca, sans-serif;
-    font-size: 2.6rem;
+    font-size: 5rem;
     font-weight: 900;
     margin: 0 0.8rem;
     margin-bottom: 1rem;
