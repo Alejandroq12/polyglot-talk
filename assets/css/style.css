@@ -1571,7 +1571,7 @@ body {
     font-weight: 600;
     color: var(--black);
     margin: 0 0.8rem;
-    padding: 1rem 0 0.4rem 0
+    padding: 1rem 0 0.4rem 0;
   }
 
   .about-section__three .about-section-three__p1 {
@@ -1660,6 +1660,10 @@ body {
     background-color: var(--light-black);
   }
 
+  .footer-div__container2 {
+    margin-left: -3.5rem;
+  }
+
   .about-us__footer .footer-div__container2 {
     color: var(--white);
   }
@@ -1667,10 +1671,6 @@ body {
   .footer-div__container1 img {
     width: 19rem;
     height: 7rem;
-  }
-
-  .footer-div__container2 {
-    margin-left: -3.5rem;
   }
 }
 
