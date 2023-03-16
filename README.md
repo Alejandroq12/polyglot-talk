@@ -2,7 +2,7 @@
 
 
 <div align="center">
-  <img src="./assets/images/logo/logo4.png" alt="logo" width="300"  height="auto" />
+  <img src="./assets/img/logo/logo-readme.png" alt="logo" width="300"  height="auto" />
   <br/>
 
   <h3><b>Polyglot Talk: Connecting Cultures through Language Learning</b></h3>
@@ -222,8 +222,7 @@ Thanks in advance.
 I would like to thank Wes Bos because I learned how to implement flexbox with his free tutorial:
 - Wes Bos: [Wes Bos](https://flexbox.io/)
 
-- Original design idea by Cindy Shin in Behance: [CC Global Summit 2015](https://www.behance.net/gallery/29845175/CC-Global-Summit-2015).
-
+Original design idea by Cindy Shin in Behance: [CC Global Summit 2015](https://www.behance.net/gallery/29845175/CC-Global-Summit-2015).
 - The Creative Commons license of the design requires that I give appropriate credit to the author. Therefore, I acknowledge the contribution of Cindy Shin for providing the original design idea used as a basis for this project.
 
 
