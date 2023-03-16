@@ -2093,7 +2093,7 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: right 0 bottom 0;
-    padding: 6rem 8rem 6rem 8rem;
+    padding: 13rem 11rem 13rem 11rem;
     background-color: black;
   }
 
@@ -2101,23 +2101,14 @@ body {
     font-family: inherit;
     text-align: center;
     color: var(--orange);
-    font-size: 1.5rem;
+    font-size: 2.5rem;
     font-weight: 700;
     margin: 0 0.8rem;
   }
 
   .about-h2 {
-    font-family: Lexend Deca, sans-serif;
-    text-align: center;
-    font-size: 2.3rem;
+    font-size: 2.6rem;
     font-weight: 900;
-    background-image: url(../img/images/back-img.jpg);
-    background-repeat: repeat;
-    background-size: contain;
-    -webkit-background-clip: text;
-
-    /* background-clip: text; */
-    color: transparent;
     margin: 0 0.8rem;
     margin-bottom: 1.3rem;
   }
@@ -2130,10 +2121,8 @@ body {
   }
 
   .about-div__p1 {
-    font-family: inherit;
-    text-align: center;
-    font-size: 0.9rem;
-    font-weight: 400;
+    font-size: 1.5rem;
+    font-weight: 300;
     margin: 2rem 0.8rem;
     border: 1px solid var(--gray);
     padding: 1rem;
@@ -2167,11 +2156,11 @@ body {
   }
 
   .about-section__two {
-    padding: 1.6rem 10rem 1.6rem 10rem;
+    padding: 8rem 10rem 8rem 10rem;
   }
 
   .about-section-two__h2 {
-    font-size: 1.3rem;
+    font-size: 2.5rem;
     font-weight: 600;
     color: var(--black);
     margin: 0.7rem 0.8rem;
@@ -2179,8 +2168,8 @@ body {
   }
 
   .about-section__two .about-section-two__p1 {
-    font-size: 1rem;
-    font-weight: 400;
+    font-size: 1.6rem;
+    font-weight: 300;
     margin: 0.4rem 0;
     border: none;
     padding: 0.4rem 0 2rem 0;
@@ -2203,11 +2192,11 @@ body {
 
   .about-section__three {
     margin-bottom: 2.2rem;
-    padding: 0.1rem 6rem 2rem 6rem;
+    padding: 6rem 10rem 6rem 10rem;
   }
 
   .about-section__three .about-section-three__h2 {
-    font-size: 1.3rem;
+    font-size: 2.5rem;
     font-weight: 600;
     color: var(--black);
     margin: 0 0.8rem;
@@ -2217,8 +2206,8 @@ body {
   .about-section__three .about-section-three__p1 {
     text-align: center;
     font-family: inherit;
-    font-size: 1rem;
-    font-weight: 400;
+    font-size: 1.6rem;
+    font-weight: 300;
     margin: 0.5rem 0.8rem;
     border: none;
     padding: 0.4rem 0 2rem 0;
