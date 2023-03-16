@@ -1456,18 +1456,16 @@ body {
     font-family: inherit;
     font-size: 1.1rem;
     font-weight: 500;
-    margin: 0.7rem 0.8rem;
     border: 3px solid var(--white);
     margin: 1.8rem 8rem 2rem 3.7rem;
     background-color: var(--gray);
-    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;  
+    box-shadow: rgba(0, 0, 0, 0.56) 0 22px 70px 4px;
   }
 
   .section-one__p2 {
     display: block;
     font-family: inherit;
     color: var(--dark-gray);
-    margin: 0.7rem 0.8rem;
     font-size: 1.7rem;
     font-weight: 900;
     margin: 1.5rem 0 5rem 3.8rem;
