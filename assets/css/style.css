@@ -334,14 +334,33 @@ body {
   margin: 0.6rem;
   border: none;
   border-radius: 0.5rem;
-  background-color: rgba(var(--dark-gray-rgb), 0.3);
-  width: 96%;
-  box-shadow: rgba(0, 0, 0, 0.56) 0 22px 70px 4px;
+  width: 330px;
+  background-color: transparent;
+  /* background-color: rgba(var(--dark-gray-rgb), 0.3); */
+  /* box-shadow: rgba(0, 0, 0, 0.56) 0 22px 70px 4px; */
   position: relative;
   transition: transform 0.3s ease-in-out;
 }
 
-/* Add this new class for the white background using ::before pseudo-element */
+.section-three__card {
+  position: relative;
+}
+
+.section-three__card ::before {
+  content: '';
+  position: absolute;
+  top: 10%;
+  left: 1%;
+  width: 3rem;
+  height: 3rem;
+  background-image: url('../img/featured-topics/background-imgs/mobile.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  z-index: -1;
+}
+
+/* White background using ::before pseudo-element */
 .section-three__container .section-three__card::before {
   content: "";
   position: absolute;
@@ -355,13 +374,13 @@ body {
   transition: opacity 0.3s ease-in-out;
 }
 
-/* Add this hover effect for the cards */
+ /* Hover effect for the cards  */
 .section-three__container .section-three__card:hover {
   transform: translateY(-5px);
   cursor: pointer;
 }
 
-/* Add this hover effect for the white background */
+/* Hover effect for the white background  */
 .section-three__container .section-three__card:hover::before {
   opacity: 1;
 }
@@ -400,7 +419,7 @@ body {
 
 .card-divider {
   border-top: 2px solid rgba(var(--dark-gray-rgb), 0.3);
-  margin: 0.4rem;
+  margin: 0.8rem 0 0.8rem 0.3rem;
   width: 1.9rem;
 }
 
@@ -411,7 +430,7 @@ body {
   align-items: center;
   font-family: inherit;
   font-size: 1.5rem;
-  font-weight: 800;
+  font-weight: 900;
   color: var(--black);
   margin: 0.3rem;
   padding-top: 1.2rem;
@@ -879,7 +898,20 @@ body {
     padding: 0.2rem;
     margin: 0.6rem;
     border-radius: 0.5rem;
-    width: 96%;
+    width: 500px;
+  }
+
+  .section-three__card {
+    position: relative;
+  }
+  
+  .section-three__card ::before {
+    content: '';
+    position: absolute;
+    top: 10%;
+    left: 8%;
+    width: 3rem;
+    height: 3rem;
   }
 
   .card-img__container .section-three__card__img {
@@ -1413,9 +1445,21 @@ body {
     margin: 0.6rem;
     border: none;
     border-radius: 0.5rem;
-    background-color: rgba(var(--dark-gray-rgb), 0.3);
     width: 96%;
-    box-shadow: rgba(0, 0, 0, 0.56) 0 22px 70px 4px;
+  }
+
+  .section-three__card {
+    position: relative;
+  }
+
+  .section-three__card ::before {
+    content: '';
+    position: absolute;
+    top: 10%;
+    left: 1%;
+    width: 3rem;
+    height: 3rem;
+    background-image: url('../img/featured-topics/background-imgs/desktop.png');
   }
 
   .card-img__container .section-three__card__img {
@@ -1423,7 +1467,6 @@ body {
     height: 5.2rem;
     margin: 0.4rem;
     margin-left: 0.3rem;
-    box-shadow: rgba(0, 0, 0, 0.17) 0 -23px 25px 0 inset, rgba(0, 0, 0, 0.15) 0 -36px 30px 0 inset, rgba(0, 0, 0, 0.1) 0 -79px 40px 0 inset, rgba(0, 0, 0, 0.06) 0 2px 1px, rgba(0, 0, 0, 0.09) 0 4px 2px, rgba(0, 0, 0, 0.09) 0 8px 4px, rgba(0, 0, 0, 0.09) 0 16px 8px, rgba(0, 0, 0, 0.09) 0 32px 16px;
   }
 
   .section-three__card .section-three__card__title {
@@ -2010,7 +2053,7 @@ body {
     gap: 0.2rem;
     justify-items: center;
     align-items: center;
-    padding: 6rem 8rem 6rem 8rem;
+    padding: 8rem 10rem 8rem 10rem;
     margin: 0.2rem;
     border: none;
   }
@@ -2024,9 +2067,20 @@ body {
     margin: 0.6rem;
     border: none;
     border-radius: 0.5rem;
-    background-color: rgba(var(--dark-gray-rgb), 0.3);
     width: 96%;
-    box-shadow: rgba(0, 0, 0, 0.56) 0 22px 70px 4px;
+  }
+
+  .section-three__card {
+    position: relative;
+  }
+
+  .section-three__card ::before {
+    content: '';
+    position: absolute;
+    top: 10%;
+    left: 1%;
+    width: 3rem;
+    height: 3rem;
   }
 
   .card-img__container .section-three__card__img {
@@ -2034,7 +2088,6 @@ body {
     height: 5.2rem;
     margin: 0.4rem;
     margin-left: 0.3rem;
-    box-shadow: rgba(0, 0, 0, 0.17) 0 -23px 25px 0 inset, rgba(0, 0, 0, 0.15) 0 -36px 30px 0 inset, rgba(0, 0, 0, 0.1) 0 -79px 40px 0 inset, rgba(0, 0, 0, 0.06) 0 2px 1px, rgba(0, 0, 0, 0.09) 0 4px 2px, rgba(0, 0, 0, 0.09) 0 8px 4px, rgba(0, 0, 0, 0.09) 0 16px 8px, rgba(0, 0, 0, 0.09) 0 32px 16px;
   }
 
   .section-three__card .section-three__card__title {
@@ -2624,9 +2677,20 @@ body {
     margin: 0.6rem;
     border: none;
     border-radius: 0.5rem;
-    background-color: rgba(var(--dark-gray-rgb), 0.3);
     width: 96%;
-    box-shadow: rgba(0, 0, 0, 0.56) 0 22px 70px 4px;
+  }
+
+  .section-three__card {
+    position: relative;
+  }
+
+  .section-three__card ::before {
+    content: '';
+    position: absolute;
+    top: 10%;
+    left: 1%;
+    width: 3rem;
+    height: 3rem;
   }
 
   .card-img__container .section-three__card__img {
@@ -2634,7 +2698,6 @@ body {
     height: 5.2rem;
     margin: 0.4rem;
     margin-left: 0.3rem;
-    box-shadow: rgba(0, 0, 0, 0.17) 0 -23px 25px 0 inset, rgba(0, 0, 0, 0.15) 0 -36px 30px 0 inset, rgba(0, 0, 0, 0.1) 0 -79px 40px 0 inset, rgba(0, 0, 0, 0.06) 0 2px 1px, rgba(0, 0, 0, 0.09) 0 4px 2px, rgba(0, 0, 0, 0.09) 0 8px 4px, rgba(0, 0, 0, 0.09) 0 16px 8px, rgba(0, 0, 0, 0.09) 0 32px 16px;
   }
 
   .section-three__card .section-three__card__title {
@@ -2949,4 +3012,100 @@ body {
 
 @media screen and (min-width: 1440px) {
   /* Screens larger than 1440px */
+  /* Styles for section three */
+  .section-three__h2 {
+    font-size: 4rem;
+    font-weight: 700;
+    margin: 0.3rem;
+    padding-top: 7rem;
+  }
+
+  .section-three__container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-auto-rows: auto;
+    gap: 0.2rem;
+    justify-items: center;
+    align-items: center;
+    padding: 12rem 9rem 16rem 12rem;
+    margin: 0.2rem;
+    border: none;
+  }
+
+  .section-three__container .section-three__card {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0.2rem;
+    margin: 0.6rem;
+    border: none;
+    border-radius: 0.5rem;
+    width: 96%;
+  }
+
+  .section-three__card {
+    position: relative;
+  }
+
+  .section-three__card ::before {
+    content: '';
+    position: absolute;
+    top: 10%;
+    left: 1%;
+    width: 3rem;
+    height: 3rem;
+  }
+
+  .card-img__container .section-three__card__img {
+    width: 5.2rem;
+    height: 5.2rem;
+    margin: 0.4rem;
+    margin-left: 0.3rem;
+  }
+
+  .section-three__card .section-three__card__title {
+    font-size: 1rem;
+    font-weight: 700;
+    margin: 0.3rem;
+  }
+
+  .section-three__card .section-three__card__time {
+    font-size: 0.9rem;
+    font-weight: 500;
+    margin: 0.3rem;
+  }
+
+  .section-three__card .section-three__card__description {
+    font-size: 0.9rem;
+    font-weight: 500;
+    margin: 0.3rem;
+    margin-top: 0.5rem;
+  }
+
+  .card-divider {
+    border-top: 2px solid rgba(var(--dark-gray-rgb), 0.3);
+    margin: 0.4rem;
+    width: 1.9rem;
+  }
+
+  .section-three__card.num-2,
+  .section-three__card.num-3,
+  .section-three__card.num-4,
+  .section-three__card.num-5,
+  .section-three__card.num-6 {
+    display: flex;
+  }
+
+  .section-three__card.num-2.active,
+  .section-three__card.num-3.active,
+  .section-three__card.num-4.active,
+  .section-three__card.num-5.active,
+  .section-three__card.num-6.active {
+    display: flex;
+  }
+
+  .div-button__more {
+    display: none;
+  }
 }
