@@ -2055,7 +2055,7 @@ body {
     margin: 0.2rem;
     border: none;
   }
-  
+
   .section-three__card {
     position: relative;
   }
@@ -3010,6 +3010,7 @@ body {
 
 @media screen and (min-width: 1440px) {
   /* Screens larger than 1440px */
+
   /* Styles for section three */
   .section-three__h2 {
     font-size: 4rem;
@@ -3110,6 +3111,7 @@ body {
 
 @media screen and (min-width: 1551px) {
   /* Screens larger than 1440px */
+
   /* Styles for section three */
   .section-three__h2 {
     font-size: 4rem;
@@ -3208,9 +3210,9 @@ body {
   }
 }
 
-
 @media screen and (min-width: 1745px) {
   /* Screens larger than 1745px */
+
   /* Styles for section three */
   .section-three__h2 {
     font-size: 4rem;
@@ -3309,9 +3311,9 @@ body {
   }
 }
 
-
 @media screen and (min-width: 1872px) {
   /* Screens larger than 1872px */
+
   /* Styles for section three */
   .section-three__h2 {
     font-size: 4rem;
@@ -3412,6 +3414,7 @@ body {
 
 @media screen and (min-width: 2033px) {
   /* Screens larger than 2033px */
+
   /* Styles for section three */
   .section-three__h2 {
     font-size: 4rem;
