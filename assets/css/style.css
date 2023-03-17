@@ -2690,20 +2690,20 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: right 0 bottom 0;
-    padding: 13rem 11rem 13rem 11rem;
+    padding: 17rem 12rem 17rem 12rem;
   }
 
   .about-h1 {
     font-family: inherit;
     text-align: center;
     color: var(--orange);
-    font-size: 2.5rem;
+    font-size: 4rem;
     font-weight: 700;
     margin: 0 0.8rem;
   }
 
   .about-h2 {
-    font-size: 2.6rem;
+    font-size: 4rem;
     font-weight: 900;
     margin: 0 0.8rem;
     margin-bottom: 1.3rem;
@@ -2752,11 +2752,11 @@ body {
   }
 
   .about-section__two {
-    padding: 8rem 10rem 8rem 10rem;
+    padding: 10rem 10rem 10rem 10rem;
   }
 
   .about-section-two__h2 {
-    font-size: 2.5rem;
+    font-size: 4rem;
     font-weight: 600;
     color: var(--black);
     margin: 0.7rem 0.8rem;
@@ -2764,7 +2764,7 @@ body {
   }
 
   .about-section__two .about-section-two__p1 {
-    font-size: 1.6rem;
+    font-size: 2rem;
     font-weight: 300;
     margin: 0.4rem 0;
     border: none;
@@ -2788,11 +2788,11 @@ body {
 
   .about-section__three {
     margin-bottom: 2.2rem;
-    padding: 6rem 10rem 6rem 10rem;
+    padding: 8rem 10rem 10rem 10rem;
   }
 
   .about-section__three .about-section-three__h2 {
-    font-size: 2.5rem;
+    font-size: 4rem;
     font-weight: 600;
     color: var(--black);
     margin: 0 0.8rem;
@@ -2802,7 +2802,7 @@ body {
   .about-section__three .about-section-three__p1 {
     text-align: center;
     font-family: inherit;
-    font-size: 1.6rem;
+    font-size: 2rem;
     font-weight: 300;
     margin: 0.5rem 0.8rem;
     border: none;
