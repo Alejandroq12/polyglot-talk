@@ -320,30 +320,30 @@ body {
   transition: transform 0.3s ease-in-out;
 }
 
-  /* Add this new class for the white background using ::before pseudo-element */
-  .section-three__container .section-three__card::before {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background-color: white;
-    opacity: 0;
-    z-index: -1;
-    transition: opacity 0.3s ease-in-out;
-  }
+/* Add this new class for the white background using ::before pseudo-element */
+.section-three__container .section-three__card::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: white;
+  opacity: 0;
+  z-index: -1;
+  transition: opacity 0.3s ease-in-out;
+}
 
-  /* Add this hover effect for the cards */
-  .section-three__container .section-three__card:hover {
-    transform: translateY(-5px);
-    cursor: pointer;
-  }
+/* Add this hover effect for the cards */
+.section-three__container .section-three__card:hover {
+  transform: translateY(-5px);
+  cursor: pointer;
+}
 
-  /* Add this hover effect for the white background */
-  .section-three__container .section-three__card:hover::before {
-    opacity: 1;
-  }
+/* Add this hover effect for the white background */
+.section-three__container .section-three__card:hover::before {
+  opacity: 1;
+}
 
 .card-img__container .section-three__card__img {
   width: 5.2rem;
