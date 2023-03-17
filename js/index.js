@@ -2,15 +2,13 @@ const hamburgerBtn = document.querySelector('#hamburger-btn');
 const mobileMenu = document.querySelector('.mobile-menu');
 const closeBtn = document.querySelector('.close-button');
 
-hamburgerBtn.addEventListener('click', () => {
-  hamburgerBtn.classList.toggle('active'); // toggle active class on hamburger button
-  mobileMenu.classList.toggle('show'); // toggle show class on mobile menu
-});
+function toggleMenu() {
+  hamburgerBtn.classList.toggle('active');
+  mobileMenu.classList.toggle('show');
+}
 
-closeBtn.addEventListener('click', () => {
-  hamburgerBtn.classList.remove('active'); // remove active class from hamburger button
-  mobileMenu.classList.remove('show'); // remove show class from mobile menu
-});
+hamburgerBtn.addEventListener('click', toggleMenu);
+closeBtn.addEventListener('click', toggleMenu);
 
 // This is to add accessibility to the pages
 // by allowing the user to press the enter key to click on the hamburger button
@@ -66,9 +64,9 @@ const topics = [
   {
     topicImage: './assets/img/featured-topics/7.png',
     alt: 'Languages and technology',
-    topicTitle: 'Languages and technology',
+    topicTitle: 'Languages and tech',
     talkTime: 'Talk Time: 1h 30m',
-    topicDescription: 'Learn labguages and technology and take your life to the next level',
+    topicDescription: 'Learn languages and take your life to the next level',
     number: 'num-5',
   },
 ];
