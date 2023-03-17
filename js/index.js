@@ -33,7 +33,7 @@ const topics = [
     topicImage: './assets/img/featured-topics/2.png',
     alt: 'French',
     topicTitle: 'French',
-    talkTime: '',
+    talkTime: 'Talk Time: 2h 30m',
     topicDescription: 'Learn French and take your life to the next level',
     number: 'num-1',
   },
