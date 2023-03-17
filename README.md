@@ -80,7 +80,7 @@ Whether you are a language learner, teacher, or simply interested in the power o
 
 ## 😎 Loom walkthrough <a name="loom-walkthrough"></a>
 
-- [Loom walkthrough Link](https://www.loom.com/share/f3e0e4e1984b4babbb05b3f2a540d078)
+- [Loom walkthrough Link](https://www.loom.com/share/a863f031fa284557b40d31ee47e01fbe)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
