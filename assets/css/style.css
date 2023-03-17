@@ -485,6 +485,28 @@ body {
   margin-bottom: 1rem;
 }
 
+/* The video element */
+.video-container {
+  position: relative;
+  width: 50%;
+  padding-bottom: 56.25%;
+  overflow: hidden;
+  margin: 0 auto;
+}
+
+.about-section-two__video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  transition: transform 0.5s;
+}
+
+.about-section-two__video:hover {
+  transform: scale(1.1);
+}
+
 .about-div__p1 {
   font-family: inherit;
   text-align: center;
