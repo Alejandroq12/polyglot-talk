@@ -1226,10 +1226,10 @@ body {
 
   #nav-bar .nav-img__logo {
     display: flex;
-    width: 22rem;
-    height: 10rem;
-    transform: translateY(-2.9rem);
-    margin-left: -2.4rem;
+    width: 9rem;
+    height: 6rem;
+    transform: translateY(-0.7rem);
+    margin-left: 3.1rem;
   }
 
   .desktop-navigation__bar ul li {
@@ -1847,10 +1847,10 @@ body {
 
   #nav-bar .nav-img__logo {
     display: flex;
-    width: 22rem;
-    height: 10rem;
-    transform: translateY(-3rem);
-    margin-left: 1.3rem;
+    width: 9rem;
+    height: 6rem;
+    transform: translateY(-0.5rem);
+    margin-left: 8rem;
   }
 
   .desktop-navigation__bar ul li {
@@ -2457,10 +2457,10 @@ body {
 
   #nav-bar .nav-img__logo {
     display: flex;
-    width: 22rem;
-    height: 10rem;
-    transform: translateY(-3rem);
-    margin-left: 1.3rem;
+    width: 12rem;
+    height: 5rem;
+    transform: translateY(-0.2rem);
+    margin-left: 6.9rem;
   }
 
   .desktop-navigation__bar ul li {
