@@ -2920,3 +2920,7 @@ body {
     height: 11rem;
   }
 }
+
+@media screen and (min-width: 1440px) {
+  /* Screens larger than 1440px */
+}
