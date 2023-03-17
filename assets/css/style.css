@@ -1132,7 +1132,7 @@ body {
     padding: 0;
     list-style: none;
     float: right;
-    transform: translateX(-39%);
+    transform: translateX(-14%);
   }
 
   .header-ul li {
@@ -1177,15 +1177,20 @@ body {
     display: flex;
     width: 22rem;
     height: 10rem;
-    transform: translateY(-2.7rem);
+    transform: translateY(-2.9rem);
     margin-left: -2.4rem;
   }
 
   .desktop-navigation__bar ul li {
     display: inline-block;
-    margin: 4px 130px 10px -100px;
+    margin: 10px 85px 10px -95px;
     padding: 1px;
-    font-size: 1.3rem;
+    font-size: 0.9rem;
+  }
+
+  .desktop-navigation__bar ul li:last-child {
+    outline: 4px solid var(--orange);
+    outline-offset: -0.6rem;
   }
 
   .desktop-navigation__bar ul a {
@@ -1737,7 +1742,7 @@ body {
     padding: 0;
     list-style: none;
     float: right;
-    transform: translateX(-39%);
+    transform: translateX(-19%);
   }
 
   .header-ul li {
@@ -1782,15 +1787,15 @@ body {
     display: flex;
     width: 22rem;
     height: 10rem;
-    transform: translateY(-2.7rem);
+    transform: translateY(-3rem);
     margin-left: 1.3rem;
   }
 
   .desktop-navigation__bar ul li {
     display: inline-block;
-    margin: 4px 130px 10px -100px;
+    margin: 8px 95px 10px -90px;
     padding: 1px;
-    font-size: 1.3rem;
+    font-size: 1rem;
   }
 
   .desktop-navigation__bar ul a {
@@ -2329,7 +2334,7 @@ body {
     align-items: center;
     width: 100%;
     background-color: var(--light-black);
-    height: 40px;
+    height: 45px;
   }
 
   .header-ul {
@@ -2337,7 +2342,7 @@ body {
     padding: 0;
     list-style: none;
     float: right;
-    transform: translateX(-39%);
+    transform: translateX(-30%);
   }
 
   .header-ul li {
@@ -2350,8 +2355,8 @@ body {
   .header-ul li a {
     text-decoration: none;
     color: var(--white);
-    font-size: 0.7rem;
-    font-weight: 600;
+    font-size: 0.9rem;
+    font-weight: 500;
   }
 
   /* Styles for nav bar */
@@ -2382,15 +2387,15 @@ body {
     display: flex;
     width: 22rem;
     height: 10rem;
-    transform: translateY(-2.7rem);
+    transform: translateY(-3rem);
     margin-left: 1.3rem;
   }
 
   .desktop-navigation__bar ul li {
     display: inline-block;
-    margin: 4px 130px 10px -100px;
+    margin: 3px 130px 10px -100px;
     padding: 1px;
-    font-size: 1.3rem;
+    font-size: 1.4rem;
   }
 
   .desktop-navigation__bar ul a {
