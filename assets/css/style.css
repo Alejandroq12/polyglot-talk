@@ -1248,6 +1248,7 @@ body {
   .desktop-navigation__bar ul a:hover {
     color: var(--orange);
     transition: color 0.3s ease, color 0.3s ease;
+    border:rgba(236, 82, 66, 0.7) solid 1px;
   }
 
   #nav-bar ul a {
