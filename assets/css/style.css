@@ -468,7 +468,7 @@ body {
   position: absolute;
   bottom: -1.5rem;
   left: 62%;
-  top: 28%;
+  top: 25%;
   transform: translateX(-50%);
   color: var(--black);
 }
@@ -479,7 +479,7 @@ body {
   position: absolute;
   bottom: -1.5rem;
   left: 62%;
-  top: 28%;
+  top: 25%;
   transform: translateX(-50%);
   color: var(--black);
 }
