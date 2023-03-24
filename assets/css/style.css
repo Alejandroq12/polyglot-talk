@@ -342,6 +342,7 @@ body {
   background-color: transparent;
   position: relative;
   transition: transform 0.3s ease-in-out;
+  box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
 }
 
 .section-three__card ::before {
@@ -1443,6 +1444,7 @@ body {
     border: none;
     border-radius: 0.5rem;
     width: 96%;
+    box-shadow: none;
   }
 
   .section-three__card ::before {
