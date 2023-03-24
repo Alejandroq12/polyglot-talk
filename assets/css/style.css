@@ -1239,11 +1239,6 @@ body {
     font-size: 0.9rem;
   }
 
-  .desktop-navigation__bar ul li:last-child {
-    outline: 4px solid var(--orange);
-    outline-offset: -0.6rem;
-  }
-
   .desktop-navigation__bar ul a {
     display: flex;
     text-decoration: none;
