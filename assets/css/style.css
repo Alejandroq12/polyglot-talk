@@ -342,6 +342,7 @@ body {
   background-color: transparent;
   position: relative;
   transition: transform 0.3s ease-in-out;
+  box-shadow: rgb(38, 57, 77) 0 20px 30px -10px;
 }
 
 .section-three__card ::before {
@@ -463,23 +464,23 @@ body {
 }
 
 .div-button__more::after {
-  content: "⮟";
+  content: "\25BC";
   font-size: 1.2rem;
   position: absolute;
   bottom: -1.5rem;
   left: 62%;
-  top: 28%;
+  top: 25%;
   transform: translateX(-50%);
   color: var(--black);
 }
 
 .btn-active::after {
-  content: "⮝";
+  content: "\25B2";
   font-size: 1.2rem;
   position: absolute;
   bottom: -1.5rem;
   left: 62%;
-  top: 28%;
+  top: 25%;
   transform: translateX(-50%);
   color: var(--black);
 }
@@ -1239,11 +1240,6 @@ body {
     font-size: 0.9rem;
   }
 
-  .desktop-navigation__bar ul li:last-child {
-    outline: 4px solid var(--orange);
-    outline-offset: -0.6rem;
-  }
-
   .desktop-navigation__bar ul a {
     display: flex;
     text-decoration: none;
@@ -1252,6 +1248,7 @@ body {
   .desktop-navigation__bar ul a:hover {
     color: var(--orange);
     transition: color 0.3s ease, color 0.3s ease;
+    border: rgba(236, 82, 66, 0.7) solid 1px;
   }
 
   #nav-bar ul a {
@@ -1448,6 +1445,7 @@ body {
     border: none;
     border-radius: 0.5rem;
     width: 96%;
+    box-shadow: none;
   }
 
   .section-three__card ::before {
