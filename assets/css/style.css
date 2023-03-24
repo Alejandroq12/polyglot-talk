@@ -342,7 +342,7 @@ body {
   background-color: transparent;
   position: relative;
   transition: transform 0.3s ease-in-out;
-  box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+  box-shadow: rgb(38, 57, 77) 0 20px 30px -10px;
 }
 
 .section-three__card ::before {
@@ -1248,7 +1248,7 @@ body {
   .desktop-navigation__bar ul a:hover {
     color: var(--orange);
     transition: color 0.3s ease, color 0.3s ease;
-    border:rgba(236, 82, 66, 0.7) solid 1px;
+    border: rgba(236, 82, 66, 0.7) solid 1px;
   }
 
   #nav-bar ul a {
