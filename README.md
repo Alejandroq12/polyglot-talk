@@ -13,26 +13,27 @@
 
 # 📗 Table of Contents
 
-- [📖 About the Project](#about-project)
-  - [🛠 Built With](#built-with)
-    - [Tech Stack](#tech-stack)
-    - [Key Features](#key-features)
-    - [🚀 Live Demo](#live-demo)
-    - [🤓 Loom walkthrough](#loom-walkthrough)
-- [💻 Getting Started](#getting-started)
-  - [Setup](#setup)
-  - [Prerequisites](#prerequisites)
-  - [Install](#install)
-  - [Usage](#usage)
-  - [Run tests](#run-tests)
-  - [Deployment](#deployment)
-- [👥 Authors](#authors)
-- [🔭 Future Features](#future-features)
-- [🤝 Contributing](#contributing)
-- [⭐️ Show your support](#support)
-- [🙏 Acknowledgements](#acknowledgements)
-- [❓ FAQ (OPTIONAL)](#faq)
-- [📝 License](#license)
+- [📗 Table of Contents](#-table-of-contents)
+- [📖 Polyglot Talk: Connecting Cultures through Language Learning ](#-polyglot-talk-connecting-cultures-through-language-learning-)
+  - [🛠 Built With ](#-built-with-)
+    - [Tech Stack ](#tech-stack-)
+    - [Key Features ](#key-features-)
+  - [🚀 Live Demo ](#-live-demo-)
+  - [😎 Loom walkthrough ](#-loom-walkthrough-)
+  - [💻 Getting Started ](#-getting-started-)
+    - [Prerequisites](#prerequisites)
+    - [Setup](#setup)
+    - [Install](#install)
+    - [Usage](#usage)
+    - [Run tests](#run-tests)
+    - [Deployment](#deployment)
+  - [👥 Authors ](#-authors-)
+  - [🔭 Future Features ](#-future-features-)
+  - [🤝 Contributing ](#-contributing-)
+  - [⭐️ Show your support ](#️-show-your-support-)
+  - [🙏 Acknowledgments ](#-acknowledgments-)
+  - [❓ FAQ (OPTIONAL) ](#-faq-optional-)
+  - [📝 License ](#-license-)
 
 <!-- PROJECT DESCRIPTION -->
 
@@ -150,12 +151,27 @@ To see this project you will only need to:
 
 ### Run tests
 
-To run tests, run the following command:
+1. Make sure all the linters and their configurations are installed and set up correctly in your project. If you haven't installed them yet, run `npm install` in your project directory to install the packages listed in your `package.json` file.
 
+2. Run each linter with the following commands:
+
+- For ESLint:
+```
+npx eslint .
+
+```
+- For Stylelint:
+```
+npx stylelint "**/*.css"
+
+```
+- For hint:
 ```
 npx hint .
 
 ```
+
+3. Review the output of each linter and fix any issues reported.
 
 ### Deployment
 
