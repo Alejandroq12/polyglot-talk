@@ -1,6 +1,5 @@
 <a name="readme-top">Polyglot Talk: Connecting Cultures through Language Learning</a>
 
-
 <div align="center">
   <img src="./assets/img/logo/logo-readme.png" alt="logo" width="600"  height="auto" />
   <br/>
