@@ -3,9 +3,7 @@
 <div align="center">
   <img src="./assets/img/logo/logo-readme.png" alt="logo" width="600"  height="auto" />
   <br/>
-
   <h3><b>Polyglot Talk: Connecting Cultures through Language Learning</b></h3>
-
 </div>
 
 <!-- TABLE OF CONTENTS -->
