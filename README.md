@@ -5,7 +5,6 @@
   <br/>
   <h3><b>Polyglot Talk: Connecting Cultures through Language Learning</b></h3>
 </div>
-
 <!-- TABLE OF CONTENTS -->
 
 # 📗 Table of Contents
@@ -31,7 +30,6 @@
   - [🙏 Acknowledgments ](#-acknowledgments-)
   - [❓ FAQ (OPTIONAL) ](#-faq-optional-)
   - [📝 License ](#-license-)
-
 <!-- PROJECT DESCRIPTION -->
 
 # 📖 Polyglot Talk: Connecting Cultures through Language Learning <a name="about-project"></a>
