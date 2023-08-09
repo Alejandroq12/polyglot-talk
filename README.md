@@ -6,7 +6,6 @@
   <h3><b>Polyglot Talk: Connecting Cultures through Language Learning</b></h3>
 </div>
 <!-- TABLE OF CONTENTS -->
-
 # 📗 Table of Contents
 
 - [📗 Table of Contents](#-table-of-contents)
