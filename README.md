@@ -202,8 +202,8 @@ You can deploy this project using GitHub pages:
 ## 🔭 Future Features <a name="future-features"></a>
 
 - [ ] **I will add a contact form**
-- [ ] **I will add media queries for larger screens**
-- [ ] **I will use JavaScript to add more**
+- [x] **I will add media queries for larger screens**
+- [x] **I will use JavaScript to add more interactivity**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -223,6 +223,7 @@ Feel free to check the [issues page](../../issues/).
 
 If you like this project please give a star.
 Thanks in advance.
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- ACKNOWLEDGEMENTS -->
