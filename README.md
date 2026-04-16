@@ -1,262 +1,127 @@
-<a name="readme-top">Polyglot Talk: Connecting Cultures through Language Learning.</a>
+# Polyglot Talk
+
+> A two page promotional site for a talk on language learning and cross cultural connection, built as a semantic HTML and CSS exercise with mobile first design. Deployed on GitHub Pages.
+
+<p>
+  <img src="https://img.shields.io/badge/status-live-brightgreen" alt="status">
+  <img src="https://img.shields.io/badge/HTML5-E34F26?logo=html5&logoColor=white" alt="HTML5">
+  <img src="https://img.shields.io/badge/CSS3-1572B6?logo=css3&logoColor=white" alt="CSS3">
+  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?logo=javascript&logoColor=black" alt="JavaScript">
+  <img src="https://img.shields.io/badge/license-MIT-green" alt="license">
+</p>
 
 <div align="center">
-  <img src="./assets/img/logo/logo-readme.png" alt="logo" width="700"  height="auto" />
-  <br/>
-  <h3><b>Polyglot Talk: Connecting Cultures through Language Learning</b></h3>
+  <img src="./assets/img/logo/logo-readme.png" alt="Polyglot Talk logo" width="600" />
 </div>
 
-<!-- TABLE OF CONTENTS -->
-# 📗 Table of Contents
+**Live site:** [alejandroq12.github.io/polyglot-talk](https://alejandroq12.github.io/polyglot-talk/index.html) · **Walkthrough:** [Loom](https://www.loom.com/share/a863f031fa284557b40d31ee47e01fbe)
 
-- [📗 Table of Contents](#-table-of-contents)
-- [📖 Polyglot Talk: Connecting Cultures through Language Learning ](#-polyglot-talk-connecting-cultures-through-language-learning-)
-  - [🛠 Built With ](#-built-with-)
-    - [Tech Stack ](#tech-stack-)
-    - [Key Features ](#key-features-)
-  - [🚀 Live Demo ](#-live-demo-)
-  - [😎 Loom walkthrough ](#-loom-walkthrough-)
-  - [💻 Getting Started ](#-getting-started-)
-    - [Prerequisites](#prerequisites)
-    - [Setup](#setup)
-    - [Install](#install)
-    - [Usage](#usage)
-    - [Run tests](#run-tests)
-    - [Deployment](#deployment)
-  - [👥 Authors ](#-authors-)
-  - [🔭 Future Features ](#-future-features-)
-  - [🤝 Contributing ](#-contributing-)
-  - [⭐️ Show your support ](#️-show-your-support-)
-  - [🙏 Acknowledgments ](#-acknowledgments-)
-  - [❓ FAQ (OPTIONAL) ](#-faq-optional-)
-  - [📝 License ](#-license-)
-<!-- PROJECT DESCRIPTION -->
+---
 
-# 📖 Polyglot Talk: Connecting Cultures through Language Learning <a name="about-project"></a>
+## The Problem
 
-As a polyglot who speaks French, Spanish, English, and Chinese, I am excited to share my experiences and insights on the importance of language learning in today's global society. In my talk, I will explore how learning multiple languages can broaden our perspectives, foster empathy and understanding, and open up new opportunities for personal and professional growth.
+I wanted to practice mobile first responsive design and semantic HTML on a project with a clear content focus, rather than a generic portfolio page or a todo app. I am a polyglot who speaks Spanish, English, and French, and I am learning Chinese, so a site centered on language learning and cross cultural exchange gave me a topic I cared about and content I could write with confidence.
 
-Drawing on my own experiences as a language learner, I will share practical tips and strategies for effective language learning, including how to choose the right materials, practice speaking with confidence, and immerse yourself in the target language and culture. I will also discuss the latest trends and technologies in language education and how they are shaping the future of language learning.
+## The Approach
 
-Whether you are a language learner, teacher, or simply interested in the power of language to connect people and cultures, this talk is for you. Join me and become part of the global movement for multilingualism and cross-cultural understanding.
+A two page static site: a main page with a conference style event layout, and a secondary about page. Built entirely with semantic HTML, plain CSS with flexbox and media queries, and a small amount of JavaScript for the mobile menu. No framework, no build tooling. The site is deployed on GitHub Pages straight from the repository.
 
-## 🛠 Built With <a name="built-with"></a>
+---
 
-### Tech Stack <a name="tech-stack"></a>
+## Key Decisions
 
-<details>
-  <summary>Client</summary>
-  <ul>
-    <li><a href="https://developer.mozilla.org/es/docs/Learn/HTML">HTML</a></li>
-    <li><a href="https://developer.mozilla.org/es/docs/Web/CSS">CSS</a></li>
-    <li><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript">JavaScript</a></li>
-  </ul>
-</details>
+### Why no framework
 
-<!-- Features -->
+For a two page static site, a framework would have added tooling overhead with no user facing benefit. The goal of the exercise was to get fluent with responsive CSS and semantic markup, so removing build steps kept the focus on the language of the web rather than the build system.
 
-### Key Features <a name="key-features"></a>
+### Why mobile first
 
-- **A fully functional website**
-- **Mobile first website**
-- **Only using semantic HTML**
+Conference and event pages are shared overwhelmingly through links people open on their phones. Designing for small screens first, then expanding to tablets and desktops with media queries, produced a layout that degrades gracefully at every size rather than one that was designed for desktop and squeezed into mobile as an afterthought.
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+### Why semantic HTML strictly
 
-<!-- LIVE DEMO -->
+`nav`, `main`, `section`, `article`, `figure`, `footer`. Every tag on the site was chosen for meaning, not for styling hooks. This makes the site accessible to screen readers by default, improves SEO, and produces HTML that reads cleanly when I come back to it months later.
 
-## 🚀 Live Demo <a name="live-demo"></a>
+---
 
-- [Live Demo Link](https://alejandroq12.github.io/polyglot-talk/index.html)
+## Tech Stack
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+| Layer | Technology |
+|-------|-----------|
+| Markup | HTML5, semantic |
+| Styling | CSS3 with flexbox and media queries |
+| Behavior | Vanilla JavaScript for the mobile menu |
+| Linting | ESLint, Stylelint, webhint |
+| CI | GitHub Actions |
+| Hosting | GitHub Pages |
 
-<!-- LOOM WALKTHROUGH -->
+---
 
-## 😎 Loom walkthrough <a name="loom-walkthrough"></a>
+## Running Locally
 
-- [Loom walkthrough Link](https://www.loom.com/share/a863f031fa284557b40d31ee47e01fbe)
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- GETTING STARTED -->
-
-## 💻 Getting Started <a name="getting-started"></a>
-
-To get a local copy up and running, follow these steps:
-
-### Prerequisites
-
-In order to run this project you need:
-
-1. A web browser to see the website.
-
-2. And a code editor if you want to edit the code. For example, Vs Code.
-
-### Setup
-
-Clone this repository to your desired folder:
-
-1. Clone it using your terminal:
-```
+```bash
 git clone https://github.com/Alejandroq12/polyglot-talk.git
+cd polyglot-talk
 ```
 
-2. If the previous method does not work you may also download the repo as a .zip file and once you decompress the .zip file you are ready to use it.
+Open `index.html` directly in a browser, or serve it with any static server:
 
-Important: do not forget to clone the repo in the correct folder, probably you will use the following commands to achieve that in your terminal:
-
-1. To navigate a certain folder:
-
-```
-cd <folder name>
-```
-2. To navigate to the previous folder: 
-
-```
-cd ..
+```bash
+npx serve .
 ```
 
-### Install
+### Optional: run the linters
 
-Install this project with:
-
-1. To see this project you will not need to install something else.
-
-2. But in case you want to test the linter that I configured to check errors you will have to complete the following steps:
-
-```
-npm init -y
-npm install --save-dev hint@7.x
-```
-
-3. If you run npm install do not forget to create a .gitignore file to prevent the node_modules to be uploaded to GitHub:
-
-```
-.gitignore
-node_modules/
-```
-
-### Usage
-
-To see this project you will only need to:
-
-1. Open the index.html file with a web browser.
-
-### Run tests
-
-1. Make sure all the linters and their configurations are installed and set up correctly in your project. If you haven't installed them yet, run `npm install` in your project directory to install the packages listed in your `package.json` file.
-
-2. Run each linter with the following commands:
-
-- For ESLint:
-```
+```bash
+npm install
 npx eslint .
-
-```
-- For Stylelint:
-```
 npx stylelint "**/*.css"
-
-```
-- For hint:
-```
 npx hint .
-
 ```
 
-3. Review the output of each linter and fix any issues reported.
+---
 
-### Deployment
+## Project Structure
 
-You can deploy this project using GitHub pages:
+```
+assets/         Images, icons, logo
+js/             JavaScript for mobile menu and small interactions
+index.html      Main page
+about.html      About page
+```
 
-1. Log in to your GitHub account and navigate to the repository that contains your website files.
-2. Make sure that your website files are located in the main branch and in the root directory of the repository.
-3. If your website is not already live, make sure that the index.html file is the main page of your website.
-4. Click on the "Settings" tab in your repository.
-5. Scroll down to the "GitHub Pages" section.
-6. In the "Source" dropdown menu, select the branch where your website files are located. For a simple website with only HTML and CSS, this is typically the main branch.
-7. In the "Path" field, make sure that the root directory is specified (i.e., "/").
-8. Click "Save" to generate your website.
-9. Wait a few minutes for GitHub to build and deploy your website.
-10. Once the website is deployed, visit the GitHub Pages URL to view your site.
+---
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+## What I Learned
 
-<!-- AUTHORS -->
+Writing two complete pages in strict semantic HTML taught me to think of markup as a meaning layer and CSS as a purely visual one. My earlier projects used `div` for almost everything and relied on class names for structure. Forcing myself to choose between `section`, `article`, and `aside` on every block made me reason about what each piece of content actually *was* before I styled it. That habit has stayed with me: in backend work now, I start with the domain model and the relationships before writing any code, for the same reason.
 
-## 👥 Authors <a name="authors"></a>
+---
 
-👤 **Julio Quezada**
+## Roadmap
 
-- GitHub: [Alejandroq12](https://github.com/Alejandroq12)
-- Twitter: [@JulioAle54](https://twitter.com/JulioAle54)
-- LinkedIn: [Julio Quezada](https://www.linkedin.com/in/quezadajulio/)
+* Record and embed the actual talk as a video
+* Add a simple contact form backed by a serverless function
+* Improve Lighthouse accessibility score to 100
 
+---
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+## About Me
 
-<!-- FUTURE FEATURES -->
+I am Julio Quezada, a backend .NET developer from El Salvador with experience building production systems at national scale. I specialize in C#, ASP.NET Core, and PostgreSQL.
 
-## 🔭 Future Features <a name="future-features"></a>
+**Open to remote backend roles** across US, EU, and LATAM time zones.
 
-- [ ] **I will add a contact form**
-- [x] **I will add media queries for larger screens**
-- [x] **I will use JavaScript to add more interactivity**
+[Portfolio](https://www.quezadajulio.com) · [LinkedIn](https://www.linkedin.com/in/jqdeveloper) · qjuliodev@gmail.com
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+---
 
-<!-- CONTRIBUTING -->
+## Acknowledgments
 
-## 🤝 Contributing <a name="contributing"></a>
+The visual design was inspired by Cindy Shin's "CC Global Summit 2015" concept on Behance, used under the original Creative Commons license. [Design reference](https://www.behance.net/gallery/29845175/CC-Global-Summit-2015).
 
-Contributions, issues, and feature requests are welcome!
+---
 
-Feel free to check the [issues page](../../issues/).
+## License
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- SUPPORT -->
-
-## ⭐️ Show your support <a name="support"></a>
-
-If you like this project please give a star.
-Thanks in advance.
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- ACKNOWLEDGEMENTS -->
-
-## 🙏 Acknowledgments <a name="acknowledgements"></a>
-
-I would like to thank Wes Bos because I learned how to implement flexbox with his free tutorial:
-- Wes Bos: [Wes Bos](https://flexbox.io/)
-
-Original design idea by Cindy Shin in Behance: [CC Global Summit 2015](https://www.behance.net/gallery/29845175/CC-Global-Summit-2015).
-- The Creative Commons license of the design requires that I give appropriate credit to the author. Therefore, I acknowledge the contribution of Cindy Shin for providing the original design idea used as a basis for this project.
-
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- FAQ (optional) -->
-
-## ❓ FAQ (OPTIONAL) <a name="faq"></a>
-
-- **Are you goin to use React in the future?**
-
-  - Yes! I will transform this website into a React App.
-
-- **Did you create this website from scratch?**
-
-  - Yes! From zero, and I will improve it a lot.
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- LICENSE -->
-
-## 📝 License <a name="license"></a>
-
-This project is [MIT](./LICENSE) licensed.
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+MIT. See [LICENSE](./LICENSE) for details.
